@@ -1,0 +1,830 @@
+fileFormatVersion: 2
+guid: f24edd926b9dc234292a45f7c97f04be
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Giant Mushroom Arms Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 204
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91bca6cc6eb5708438601a541601338f
+      internalID: 996123029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Arms Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 205
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1ac0c5e5e8b3549839dc690c8cae1b
+      internalID: -1069300536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Arms Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 205
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f39726d48b646243987a308538d14e1
+      internalID: -2066242796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Arms Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 205
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edfde9a4de1e71b4aae25ba604735b6a
+      internalID: 1525897217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Arms Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 201
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4410e32561ff216419aaee8298df19f9
+      internalID: -1916178842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Arms Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 201
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2971315de437b174f9721f3f1c60600c
+      internalID: -1684053874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Arms Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 201
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296b70da4078dbd47af11e785fa3ef2e
+      internalID: -850819320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Arms Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 200
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73531292ca9014a4b83ee520a26a6bf3
+      internalID: -1930431270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Arms Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 140
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e639d286fbd624e8b26d11a8724972
+      internalID: 1758912932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Arms Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 151
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb66964689b3f140a8c426eda8a59c0
+      internalID: -886742275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Arms Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 154
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3754504cd7cdce54ea16fa532c040d03
+      internalID: 281008862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Arms Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 135
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc23e2156ec0cd429347349ca30a336
+      internalID: 673797104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Arms Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 137
+        width: 33
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c48726acc0e0a4291c2d041665ff35
+      internalID: -1999720601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Arms Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 128
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77b3698b32086b44a865e7e9c7fea61
+      internalID: 403167257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Arms Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 130
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56d5647d7e80d74299b0c360e2c88ac
+      internalID: -841230770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Arms Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 81
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4838d12a6ed28ed4986f8d35ebdc2e2c
+      internalID: -657531271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Arms Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 78
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3473c742aa43545945be87bf6c4fff
+      internalID: -1142900789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Arms Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 69
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911b5844e3990f346a6e62b6dd6f6146
+      internalID: -1056752488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Arms Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 69
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434e3462b67b33949bce06bde48e48ec
+      internalID: -112931780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Arms Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 79
+        width: 29
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f23307205dbb6c41a45f26a84a780d3
+      internalID: 2070809304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Arms Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 84
+        width: 27
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838efe0201bde3746ab6a7705aa05323
+      internalID: 1663959699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Arms Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 82
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f39edfe4e9c60409eadd468db8734a
+      internalID: 291115555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Arms Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 81
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56908d30d2a155f40baf162e026bffc0
+      internalID: 688308892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Arms Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 11
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df47895932fece46ad5c18ef0cb6f0b
+      internalID: -1551168104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Arms Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 12
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277ccacd607e38844b4c40898d86ba46
+      internalID: 886053648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Arms Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 12
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39feef9ef859da479a830181f526f88
+      internalID: 188707026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Arms Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 12
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2586f93dd04468d419d62b2798245ebc
+      internalID: 1060594283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Arms Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 11
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9fa5ebcf1f1de641adef71aadd6984b
+      internalID: -1811133757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Arms Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 5
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bcb43b543e81274bbedb491d4633dd6
+      internalID: -186434776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Arms Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 0
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f48f59ad691f554aa76e79cd87b3a61
+      internalID: 965288707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Arms Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 0
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb1063328db6a04f95c50bb1017dbca
+      internalID: -1658103711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Giant Mushroom Arms Sprite Sheet_7: -1930431270
+      Giant Mushroom Arms Sprite Sheet_4: -1916178842
+      Giant Mushroom Arms Sprite Sheet_26: 1060594283
+      Giant Mushroom Arms Sprite Sheet_9: -886742275
+      Giant Mushroom Arms Sprite Sheet_23: -1551168104
+      Giant Mushroom Arms Sprite Sheet_20: 1663959699
+      Giant Mushroom Arms Sprite Sheet_14: -841230770
+      Giant Mushroom Arms Sprite Sheet_1: -1069300536
+      Giant Mushroom Arms Sprite Sheet_8: 1758912932
+      Giant Mushroom Arms Sprite Sheet_10: 281008862
+      Giant Mushroom Arms Sprite Sheet_24: 886053648
+      Giant Mushroom Arms Sprite Sheet_11: 673797104
+      Giant Mushroom Arms Sprite Sheet_30: -1658103711
+      Giant Mushroom Arms Sprite Sheet_2: -2066242796
+      Giant Mushroom Arms Sprite Sheet_17: -1056752488
+      Giant Mushroom Arms Sprite Sheet_27: -1811133757
+      Giant Mushroom Arms Sprite Sheet_22: 688308892
+      Giant Mushroom Arms Sprite Sheet_3: 1525897217
+      Giant Mushroom Arms Sprite Sheet_29: 965288707
+      Giant Mushroom Arms Sprite Sheet_21: 291115555
+      Giant Mushroom Arms Sprite Sheet_28: -186434776
+      Giant Mushroom Arms Sprite Sheet_0: 996123029
+      Giant Mushroom Arms Sprite Sheet_15: -657531271
+      Giant Mushroom Arms Sprite Sheet_18: -112931780
+      Giant Mushroom Arms Sprite Sheet_25: 188707026
+      Giant Mushroom Arms Sprite Sheet_5: -1684053874
+      Giant Mushroom Arms Sprite Sheet_12: -1999720601
+      Giant Mushroom Arms Sprite Sheet_19: 2070809304
+      Giant Mushroom Arms Sprite Sheet_13: 403167257
+      Giant Mushroom Arms Sprite Sheet_16: -1142900789
+      Giant Mushroom Arms Sprite Sheet_6: -850819320
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

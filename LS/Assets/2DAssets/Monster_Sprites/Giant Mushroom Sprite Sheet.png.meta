@@ -1,0 +1,3132 @@
+fileFormatVersion: 2
+guid: 6ee95aab77e9f4348a4eb040271de84d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 480
+        width: 58
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 17, y: -22.5}
+        - {x: 17, y: -15.5}
+        - {x: 16, y: -14.5}
+        - {x: 17, y: -13.5}
+        - {x: 17, y: -11.5}
+        - {x: 16, y: -10.5}
+        - {x: 17, y: -9.5}
+        - {x: 17, y: -5.5}
+        - {x: 15, y: -2.5}
+        - {x: 15, y: 1.5}
+        - {x: 14, y: 2.5}
+        - {x: 20, y: 6.5}
+        - {x: 25, y: 7.5}
+        - {x: 29, y: 10.5}
+        - {x: 29, y: 18.5}
+        - {x: 28, y: 21.5}
+        - {x: 22, y: 27.5}
+        - {x: 15, y: 30.5}
+        - {x: 13, y: 30.5}
+        - {x: 10, y: 32.5}
+        - {x: -11, y: 32.5}
+        - {x: -16, y: 30.5}
+        - {x: -29, y: 16.5}
+        - {x: -29, y: 9.5}
+        - {x: -28, y: 7.5}
+        - {x: -23, y: 5.5}
+        - {x: -21, y: 5.5}
+        - {x: -20, y: 4.5}
+        - {x: -13, y: 3.5}
+        - {x: -11, y: 2.5}
+        - {x: -12, y: 1.5}
+        - {x: -12, y: -9.5}
+        - {x: -13, y: -10.5}
+        - {x: -13, y: -16.5}
+        - {x: -14, y: -16.5}
+        - {x: -18, y: -20.5}
+        - {x: -18, y: -21.5}
+        - {x: -16, y: -24.5}
+        - {x: -18, y: -24.5}
+        - {x: -22, y: -29.5}
+        - {x: -22, y: -30.5}
+        - {x: -20, y: -32.5}
+        - {x: 22, y: -32.5}
+        - {x: 23, y: -29.5}
+        - {x: 19, y: -25.5}
+        - {x: 19, y: -24.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: ed4df88db3471cc4a93bfe9ed0efeba1
+      internalID: -3987478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 480
+        width: 58
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 17, y: -21.5}
+        - {x: 17, y: -15.5}
+        - {x: 16, y: -14.5}
+        - {x: 17, y: -13.5}
+        - {x: 17, y: -11.5}
+        - {x: 16, y: -10.5}
+        - {x: 17, y: -9.5}
+        - {x: 17, y: -6.5}
+        - {x: 15, y: -3.5}
+        - {x: 15, y: 0.5}
+        - {x: 14, y: 1.5}
+        - {x: 20, y: 5.5}
+        - {x: 25, y: 6.5}
+        - {x: 29, y: 9.5}
+        - {x: 29, y: 17.5}
+        - {x: 28, y: 20.5}
+        - {x: 22, y: 26.5}
+        - {x: 15, y: 29.5}
+        - {x: 13, y: 29.5}
+        - {x: 10, y: 31.5}
+        - {x: -11, y: 31.5}
+        - {x: -16, y: 29.5}
+        - {x: -29, y: 15.5}
+        - {x: -29, y: 8.5}
+        - {x: -28, y: 6.5}
+        - {x: -23, y: 4.5}
+        - {x: -21, y: 4.5}
+        - {x: -20, y: 3.5}
+        - {x: -13, y: 2.5}
+        - {x: -11, y: 1.5}
+        - {x: -12, y: 0.5}
+        - {x: -12, y: -10.5}
+        - {x: -13, y: -11.5}
+        - {x: -13, y: -15.5}
+        - {x: -14, y: -15.5}
+        - {x: -18, y: -19.5}
+        - {x: -18, y: -20.5}
+        - {x: -16, y: -23.5}
+        - {x: -18, y: -23.5}
+        - {x: -22, y: -28.5}
+        - {x: -22, y: -29.5}
+        - {x: -20, y: -31.5}
+        - {x: 22, y: -31.5}
+        - {x: 23, y: -28.5}
+        - {x: 19, y: -24.5}
+        - {x: 19, y: -23.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 5965fe87677caf646ba30157932358ce
+      internalID: 1659144464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 480
+        width: 58
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 16, y: -14.5}
+        - {x: 17, y: -13.5}
+        - {x: 17, y: -7.5}
+        - {x: 15, y: -4.5}
+        - {x: 15, y: -0.5}
+        - {x: 14, y: 0.5}
+        - {x: 20, y: 4.5}
+        - {x: 25, y: 5.5}
+        - {x: 29, y: 8.5}
+        - {x: 29, y: 16.5}
+        - {x: 28, y: 19.5}
+        - {x: 22, y: 25.5}
+        - {x: 15, y: 28.5}
+        - {x: 13, y: 28.5}
+        - {x: 10, y: 30.5}
+        - {x: -11, y: 30.5}
+        - {x: -16, y: 28.5}
+        - {x: -29, y: 14.5}
+        - {x: -29, y: 7.5}
+        - {x: -28, y: 5.5}
+        - {x: -23, y: 3.5}
+        - {x: -21, y: 3.5}
+        - {x: -20, y: 2.5}
+        - {x: -13, y: 1.5}
+        - {x: -11, y: 0.5}
+        - {x: -12, y: -0.5}
+        - {x: -12, y: -8.5}
+        - {x: -13, y: -9.5}
+        - {x: -13, y: -13.5}
+        - {x: -14, y: -14.5}
+        - {x: -18, y: -19.5}
+        - {x: -18, y: -20.5}
+        - {x: -17, y: -22.5}
+        - {x: -22, y: -27.5}
+        - {x: -22, y: -28.5}
+        - {x: -20, y: -30.5}
+        - {x: 22, y: -30.5}
+        - {x: 23, y: -27.5}
+        - {x: 18, y: -22.5}
+        - {x: 18, y: -18.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 04fb7473e8789584c9a62aa9a3ae060f
+      internalID: -85916968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 480
+        width: 58
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 18, y: -19}
+        - {x: 18, y: -16}
+        - {x: 16, y: -14}
+        - {x: 17, y: -13}
+        - {x: 17, y: -8}
+        - {x: 15, y: -5}
+        - {x: 15, y: -1}
+        - {x: 14, y: 0}
+        - {x: 20, y: 4}
+        - {x: 25, y: 5}
+        - {x: 29, y: 8}
+        - {x: 29, y: 16}
+        - {x: 28, y: 19}
+        - {x: 22, y: 25}
+        - {x: 15, y: 28}
+        - {x: 13, y: 28}
+        - {x: 10, y: 30}
+        - {x: -11, y: 30}
+        - {x: -16, y: 28}
+        - {x: -29, y: 14}
+        - {x: -29, y: 7}
+        - {x: -28, y: 5}
+        - {x: -23, y: 3}
+        - {x: -21, y: 3}
+        - {x: -20, y: 2}
+        - {x: -13, y: 1}
+        - {x: -11, y: 0}
+        - {x: -12, y: -1}
+        - {x: -12, y: -6}
+        - {x: -14, y: -10}
+        - {x: -14, y: -13}
+        - {x: -15, y: -14}
+        - {x: -19, y: -19}
+        - {x: -19, y: -20}
+        - {x: -18, y: -23}
+        - {x: -22, y: -27}
+        - {x: -22, y: -28}
+        - {x: -20, y: -30}
+        - {x: 22, y: -30}
+        - {x: 23, y: -27}
+        - {x: 20, y: -24}
+        - {x: 19, y: -20}
+      tessellationDetail: 1
+      bones: []
+      spriteID: a6cfdd906d8da6c448763b1007be4675
+      internalID: 174160720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 480
+        width: 58
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 16, y: -14.5}
+        - {x: 17, y: -13.5}
+        - {x: 17, y: -7.5}
+        - {x: 15, y: -4.5}
+        - {x: 15, y: -0.5}
+        - {x: 14, y: 0.5}
+        - {x: 20, y: 4.5}
+        - {x: 25, y: 5.5}
+        - {x: 29, y: 8.5}
+        - {x: 29, y: 16.5}
+        - {x: 28, y: 19.5}
+        - {x: 22, y: 25.5}
+        - {x: 15, y: 28.5}
+        - {x: 13, y: 28.5}
+        - {x: 10, y: 30.5}
+        - {x: -11, y: 30.5}
+        - {x: -16, y: 28.5}
+        - {x: -29, y: 14.5}
+        - {x: -29, y: 7.5}
+        - {x: -28, y: 5.5}
+        - {x: -23, y: 3.5}
+        - {x: -21, y: 3.5}
+        - {x: -20, y: 2.5}
+        - {x: -13, y: 1.5}
+        - {x: -11, y: 0.5}
+        - {x: -12, y: -0.5}
+        - {x: -12, y: -8.5}
+        - {x: -13, y: -9.5}
+        - {x: -13, y: -13.5}
+        - {x: -14, y: -14.5}
+        - {x: -18, y: -19.5}
+        - {x: -18, y: -20.5}
+        - {x: -17, y: -22.5}
+        - {x: -22, y: -27.5}
+        - {x: -22, y: -28.5}
+        - {x: -20, y: -30.5}
+        - {x: 22, y: -30.5}
+        - {x: 23, y: -27.5}
+        - {x: 18, y: -22.5}
+        - {x: 18, y: -18.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: ea92b6cfb7aee9e4fb459377ab519465
+      internalID: 1231669444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 480
+        width: 58
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 17, y: -21.5}
+        - {x: 17, y: -15.5}
+        - {x: 16, y: -14.5}
+        - {x: 17, y: -13.5}
+        - {x: 17, y: -11.5}
+        - {x: 16, y: -10.5}
+        - {x: 17, y: -9.5}
+        - {x: 17, y: -6.5}
+        - {x: 15, y: -3.5}
+        - {x: 15, y: 0.5}
+        - {x: 14, y: 1.5}
+        - {x: 20, y: 5.5}
+        - {x: 25, y: 6.5}
+        - {x: 29, y: 9.5}
+        - {x: 29, y: 17.5}
+        - {x: 28, y: 20.5}
+        - {x: 22, y: 26.5}
+        - {x: 15, y: 29.5}
+        - {x: 13, y: 29.5}
+        - {x: 10, y: 31.5}
+        - {x: -11, y: 31.5}
+        - {x: -16, y: 29.5}
+        - {x: -29, y: 15.5}
+        - {x: -29, y: 8.5}
+        - {x: -28, y: 6.5}
+        - {x: -23, y: 4.5}
+        - {x: -21, y: 4.5}
+        - {x: -20, y: 3.5}
+        - {x: -13, y: 2.5}
+        - {x: -11, y: 1.5}
+        - {x: -12, y: 0.5}
+        - {x: -12, y: -10.5}
+        - {x: -13, y: -11.5}
+        - {x: -13, y: -15.5}
+        - {x: -14, y: -15.5}
+        - {x: -18, y: -19.5}
+        - {x: -18, y: -20.5}
+        - {x: -16, y: -23.5}
+        - {x: -18, y: -23.5}
+        - {x: -22, y: -28.5}
+        - {x: -22, y: -29.5}
+        - {x: -20, y: -31.5}
+        - {x: 22, y: -31.5}
+        - {x: 23, y: -28.5}
+        - {x: 19, y: -24.5}
+        - {x: 19, y: -23.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 73cf70510554be8489b978fdb80c01b4
+      internalID: 1530666128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 480
+        width: 58
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 17, y: -22.5}
+        - {x: 17, y: -15.5}
+        - {x: 16, y: -14.5}
+        - {x: 17, y: -13.5}
+        - {x: 17, y: -11.5}
+        - {x: 16, y: -10.5}
+        - {x: 17, y: -9.5}
+        - {x: 17, y: -5.5}
+        - {x: 15, y: -2.5}
+        - {x: 15, y: 1.5}
+        - {x: 14, y: 2.5}
+        - {x: 20, y: 6.5}
+        - {x: 25, y: 7.5}
+        - {x: 29, y: 10.5}
+        - {x: 29, y: 18.5}
+        - {x: 28, y: 21.5}
+        - {x: 22, y: 27.5}
+        - {x: 15, y: 30.5}
+        - {x: 13, y: 30.5}
+        - {x: 10, y: 32.5}
+        - {x: -11, y: 32.5}
+        - {x: -16, y: 30.5}
+        - {x: -29, y: 16.5}
+        - {x: -29, y: 9.5}
+        - {x: -28, y: 7.5}
+        - {x: -23, y: 5.5}
+        - {x: -21, y: 5.5}
+        - {x: -20, y: 4.5}
+        - {x: -13, y: 3.5}
+        - {x: -11, y: 2.5}
+        - {x: -12, y: 1.5}
+        - {x: -12, y: -9.5}
+        - {x: -13, y: -10.5}
+        - {x: -13, y: -16.5}
+        - {x: -14, y: -16.5}
+        - {x: -18, y: -20.5}
+        - {x: -18, y: -21.5}
+        - {x: -16, y: -24.5}
+        - {x: -18, y: -24.5}
+        - {x: -22, y: -29.5}
+        - {x: -22, y: -30.5}
+        - {x: -20, y: -32.5}
+        - {x: 22, y: -32.5}
+        - {x: 23, y: -29.5}
+        - {x: 19, y: -25.5}
+        - {x: 19, y: -24.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: eb96b7746d5c6214ab73550413398f89
+      internalID: 697708723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 480
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 17, y: -23}
+        - {x: 17, y: -16}
+        - {x: 16, y: -15}
+        - {x: 17, y: -14}
+        - {x: 17, y: -12}
+        - {x: 16, y: -11}
+        - {x: 17, y: -10}
+        - {x: 17, y: -6}
+        - {x: 15, y: -3}
+        - {x: 15, y: 2}
+        - {x: 14, y: 3}
+        - {x: 20, y: 7}
+        - {x: 25, y: 8}
+        - {x: 29, y: 11}
+        - {x: 29, y: 19}
+        - {x: 28, y: 22}
+        - {x: 22, y: 28}
+        - {x: 15, y: 31}
+        - {x: 13, y: 31}
+        - {x: 10, y: 33}
+        - {x: -11, y: 33}
+        - {x: -16, y: 31}
+        - {x: -29, y: 17}
+        - {x: -29, y: 10}
+        - {x: -28, y: 8}
+        - {x: -23, y: 6}
+        - {x: -21, y: 6}
+        - {x: -20, y: 5}
+        - {x: -13, y: 4}
+        - {x: -11, y: 3}
+        - {x: -12, y: 1}
+        - {x: -12, y: -10}
+        - {x: -13, y: -11}
+        - {x: -13, y: -17}
+        - {x: -14, y: -17}
+        - {x: -18, y: -21}
+        - {x: -18, y: -22}
+        - {x: -16, y: -25}
+        - {x: -18, y: -25}
+        - {x: -22, y: -30}
+        - {x: -22, y: -31}
+        - {x: -20, y: -33}
+        - {x: 22, y: -33}
+        - {x: 23, y: -30}
+        - {x: 19, y: -26}
+        - {x: 19, y: -25}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 146e4223e5b81874e9bc6c697fb4e065
+      internalID: 1844372002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 384
+        width: 58
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 19, y: -22}
+        - {x: 19, y: -18}
+        - {x: 16, y: -14}
+        - {x: 17, y: -13}
+        - {x: 17, y: -6}
+        - {x: 15, y: -3}
+        - {x: 15, y: 1}
+        - {x: 14, y: 2}
+        - {x: 20, y: 6}
+        - {x: 25, y: 7}
+        - {x: 29, y: 10}
+        - {x: 29, y: 18}
+        - {x: 28, y: 21}
+        - {x: 22, y: 27}
+        - {x: 15, y: 30}
+        - {x: 13, y: 30}
+        - {x: 10, y: 32}
+        - {x: -11, y: 32}
+        - {x: -16, y: 30}
+        - {x: -29, y: 16}
+        - {x: -29, y: 9}
+        - {x: -28, y: 7}
+        - {x: -23, y: 5}
+        - {x: -20, y: 4}
+        - {x: -13, y: 3}
+        - {x: -11, y: 2}
+        - {x: -12, y: 1}
+        - {x: -12, y: -9}
+        - {x: -16, y: -16}
+        - {x: -20, y: -20}
+        - {x: -20, y: -21}
+        - {x: -18, y: -24}
+        - {x: -20, y: -24}
+        - {x: -24, y: -29}
+        - {x: -24, y: -30}
+        - {x: -22, y: -32}
+        - {x: 24, y: -32}
+        - {x: 25, y: -29}
+        - {x: 21, y: -25}
+        - {x: 21, y: -24}
+      tessellationDetail: 1
+      bones: []
+      spriteID: f4582aa469066284c86785eb1e7b6a58
+      internalID: 189945368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 384
+        width: 58
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 18, y: -18.5}
+        - {x: 18, y: -5.5}
+        - {x: 16, y: -0.5}
+        - {x: 14, y: 0.5}
+        - {x: 20, y: 4.5}
+        - {x: 25, y: 5.5}
+        - {x: 29, y: 8.5}
+        - {x: 29, y: 16.5}
+        - {x: 28, y: 19.5}
+        - {x: 22, y: 25.5}
+        - {x: 15, y: 28.5}
+        - {x: 13, y: 28.5}
+        - {x: 10, y: 30.5}
+        - {x: -11, y: 30.5}
+        - {x: -16, y: 28.5}
+        - {x: -29, y: 14.5}
+        - {x: -29, y: 7.5}
+        - {x: -28, y: 5.5}
+        - {x: -23, y: 3.5}
+        - {x: -20, y: 2.5}
+        - {x: -13, y: 1.5}
+        - {x: -11, y: 0.5}
+        - {x: -15, y: -7.5}
+        - {x: -15, y: -15.5}
+        - {x: -18, y: -18.5}
+        - {x: -18, y: -19.5}
+        - {x: -16, y: -22.5}
+        - {x: -18, y: -22.5}
+        - {x: -22, y: -27.5}
+        - {x: -22, y: -28.5}
+        - {x: -20, y: -30.5}
+        - {x: 22, y: -30.5}
+        - {x: 23, y: -27.5}
+        - {x: 19, y: -22.5}
+        - {x: 17, y: -19.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 14ee7649449f7494ebbab6e0cf2be033
+      internalID: -1282082765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 384
+        width: 58
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 19, y: -11}
+        - {x: 19, y: -5}
+        - {x: 14, y: 0}
+        - {x: 20, y: 4}
+        - {x: 25, y: 5}
+        - {x: 29, y: 8}
+        - {x: 29, y: 16}
+        - {x: 28, y: 19}
+        - {x: 22, y: 25}
+        - {x: 15, y: 28}
+        - {x: 13, y: 28}
+        - {x: 10, y: 30}
+        - {x: -11, y: 30}
+        - {x: -16, y: 28}
+        - {x: -29, y: 14}
+        - {x: -29, y: 7}
+        - {x: -28, y: 5}
+        - {x: -23, y: 3}
+        - {x: -20, y: 2}
+        - {x: -13, y: 1}
+        - {x: -12, y: 0}
+        - {x: -12, y: -4}
+        - {x: -13, y: -5}
+        - {x: -13, y: -13}
+        - {x: -14, y: -14}
+        - {x: -18, y: -19}
+        - {x: -18, y: -20}
+        - {x: -17, y: -22}
+        - {x: -22, y: -27}
+        - {x: -22, y: -28}
+        - {x: -20, y: -30}
+        - {x: 22, y: -30}
+        - {x: 23, y: -27}
+        - {x: 18, y: -22}
+        - {x: 17, y: -14}
+      tessellationDetail: 1
+      bones: []
+      spriteID: ae7b2bf82626dea48944f003a312c021
+      internalID: 965097218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 384
+        width: 58
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 17, y: -15.5}
+        - {x: 20, y: -11.5}
+        - {x: 20, y: -5.5}
+        - {x: 19, y: -2.5}
+        - {x: 15, y: 0.5}
+        - {x: 17, y: 1.5}
+        - {x: 20, y: 3.5}
+        - {x: 25, y: 4.5}
+        - {x: 29, y: 7.5}
+        - {x: 29, y: 15.5}
+        - {x: 28, y: 18.5}
+        - {x: 22, y: 24.5}
+        - {x: 15, y: 27.5}
+        - {x: 13, y: 27.5}
+        - {x: 10, y: 29.5}
+        - {x: -11, y: 29.5}
+        - {x: -16, y: 27.5}
+        - {x: -29, y: 13.5}
+        - {x: -29, y: 6.5}
+        - {x: -28, y: 4.5}
+        - {x: -23, y: 2.5}
+        - {x: -21, y: 2.5}
+        - {x: -20, y: 1.5}
+        - {x: -13, y: 0.5}
+        - {x: -11, y: -0.5}
+        - {x: -12, y: -1.5}
+        - {x: -12, y: -4.5}
+        - {x: -13, y: -5.5}
+        - {x: -13, y: -9.5}
+        - {x: -14, y: -10.5}
+        - {x: -14, y: -12.5}
+        - {x: -15, y: -13.5}
+        - {x: -19, y: -18.5}
+        - {x: -19, y: -19.5}
+        - {x: -18, y: -22.5}
+        - {x: -22, y: -26.5}
+        - {x: -22, y: -27.5}
+        - {x: -20, y: -29.5}
+        - {x: 22, y: -29.5}
+        - {x: 23, y: -26.5}
+        - {x: 20, y: -22.5}
+        - {x: 17, y: -17.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 9da70952a9933364b9775d1a6b6efeb0
+      internalID: 32549982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 384
+        width: 58
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 16, y: -14.5}
+        - {x: 18, y: -10.5}
+        - {x: 18, y: -5.5}
+        - {x: 16, y: -0.5}
+        - {x: 14, y: 0.5}
+        - {x: 20, y: 4.5}
+        - {x: 25, y: 5.5}
+        - {x: 29, y: 8.5}
+        - {x: 29, y: 16.5}
+        - {x: 28, y: 19.5}
+        - {x: 22, y: 25.5}
+        - {x: 15, y: 28.5}
+        - {x: 13, y: 28.5}
+        - {x: 10, y: 30.5}
+        - {x: -11, y: 30.5}
+        - {x: -16, y: 28.5}
+        - {x: -29, y: 14.5}
+        - {x: -29, y: 7.5}
+        - {x: -28, y: 5.5}
+        - {x: -23, y: 3.5}
+        - {x: -20, y: 2.5}
+        - {x: -13, y: 1.5}
+        - {x: -11, y: 0.5}
+        - {x: -12, y: -0.5}
+        - {x: -12, y: -8.5}
+        - {x: -13, y: -9.5}
+        - {x: -13, y: -13.5}
+        - {x: -14, y: -14.5}
+        - {x: -18, y: -19.5}
+        - {x: -18, y: -20.5}
+        - {x: -17, y: -22.5}
+        - {x: -22, y: -27.5}
+        - {x: -22, y: -28.5}
+        - {x: -20, y: -30.5}
+        - {x: 22, y: -30.5}
+        - {x: 23, y: -27.5}
+        - {x: 18, y: -22.5}
+        - {x: 18, y: -18.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 900f423ff26cf434a9895eac794efd61
+      internalID: -685956225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 384
+        width: 58
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 17, y: -21.5}
+        - {x: 17, y: -15.5}
+        - {x: 16, y: -14.5}
+        - {x: 17, y: -13.5}
+        - {x: 16, y: -8.5}
+        - {x: 17, y: -7.5}
+        - {x: 17, y: -3.5}
+        - {x: 14, y: 1.5}
+        - {x: 20, y: 5.5}
+        - {x: 25, y: 6.5}
+        - {x: 29, y: 9.5}
+        - {x: 29, y: 17.5}
+        - {x: 28, y: 20.5}
+        - {x: 22, y: 26.5}
+        - {x: 15, y: 29.5}
+        - {x: 13, y: 29.5}
+        - {x: 10, y: 31.5}
+        - {x: -11, y: 31.5}
+        - {x: -16, y: 29.5}
+        - {x: -29, y: 15.5}
+        - {x: -29, y: 8.5}
+        - {x: -28, y: 6.5}
+        - {x: -23, y: 4.5}
+        - {x: -21, y: 4.5}
+        - {x: -20, y: 3.5}
+        - {x: -13, y: 2.5}
+        - {x: -11, y: 1.5}
+        - {x: -12, y: 0.5}
+        - {x: -12, y: -10.5}
+        - {x: -13, y: -11.5}
+        - {x: -13, y: -15.5}
+        - {x: -14, y: -15.5}
+        - {x: -18, y: -19.5}
+        - {x: -18, y: -20.5}
+        - {x: -16, y: -23.5}
+        - {x: -18, y: -23.5}
+        - {x: -22, y: -28.5}
+        - {x: -22, y: -29.5}
+        - {x: -20, y: -31.5}
+        - {x: 22, y: -31.5}
+        - {x: 23, y: -28.5}
+        - {x: 19, y: -24.5}
+        - {x: 19, y: -23.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: a863d4ab7edf7c344a487471fee5daa7
+      internalID: -257162066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 384
+        width: 58
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 17, y: -22.5}
+        - {x: 16, y: -7.5}
+        - {x: 17, y: -6.5}
+        - {x: 17, y: -3.5}
+        - {x: 14, y: 2.5}
+        - {x: 20, y: 6.5}
+        - {x: 25, y: 7.5}
+        - {x: 29, y: 10.5}
+        - {x: 29, y: 18.5}
+        - {x: 28, y: 21.5}
+        - {x: 22, y: 27.5}
+        - {x: 15, y: 30.5}
+        - {x: 13, y: 30.5}
+        - {x: 10, y: 32.5}
+        - {x: -11, y: 32.5}
+        - {x: -16, y: 30.5}
+        - {x: -29, y: 16.5}
+        - {x: -29, y: 9.5}
+        - {x: -28, y: 7.5}
+        - {x: -23, y: 5.5}
+        - {x: -21, y: 5.5}
+        - {x: -20, y: 4.5}
+        - {x: -13, y: 3.5}
+        - {x: -11, y: 2.5}
+        - {x: -12, y: 1.5}
+        - {x: -12, y: -9.5}
+        - {x: -13, y: -10.5}
+        - {x: -13, y: -16.5}
+        - {x: -14, y: -16.5}
+        - {x: -18, y: -20.5}
+        - {x: -18, y: -21.5}
+        - {x: -16, y: -24.5}
+        - {x: -18, y: -24.5}
+        - {x: -22, y: -29.5}
+        - {x: -22, y: -30.5}
+        - {x: -20, y: -32.5}
+        - {x: 22, y: -32.5}
+        - {x: 23, y: -29.5}
+        - {x: 19, y: -25.5}
+        - {x: 19, y: -24.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 6e8b672ed0046564294429883e8eb516
+      internalID: -2061273294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 384
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 17, y: -23}
+        - {x: 17, y: -16}
+        - {x: 16, y: -15}
+        - {x: 16, y: -12}
+        - {x: 17, y: -11}
+        - {x: 17, y: -9}
+        - {x: 16, y: -8}
+        - {x: 17, y: -6}
+        - {x: 15, y: -3}
+        - {x: 15, y: 2}
+        - {x: 14, y: 3}
+        - {x: 20, y: 7}
+        - {x: 25, y: 8}
+        - {x: 29, y: 11}
+        - {x: 29, y: 19}
+        - {x: 28, y: 22}
+        - {x: 22, y: 28}
+        - {x: 15, y: 31}
+        - {x: 13, y: 31}
+        - {x: 10, y: 33}
+        - {x: -11, y: 33}
+        - {x: -16, y: 31}
+        - {x: -29, y: 17}
+        - {x: -29, y: 10}
+        - {x: -28, y: 8}
+        - {x: -23, y: 6}
+        - {x: -21, y: 6}
+        - {x: -20, y: 5}
+        - {x: -13, y: 4}
+        - {x: -11, y: 3}
+        - {x: -12, y: 1}
+        - {x: -12, y: -10}
+        - {x: -13, y: -11}
+        - {x: -13, y: -17}
+        - {x: -14, y: -17}
+        - {x: -18, y: -21}
+        - {x: -18, y: -22}
+        - {x: -16, y: -25}
+        - {x: -18, y: -25}
+        - {x: -22, y: -30}
+        - {x: -22, y: -31}
+        - {x: -20, y: -33}
+        - {x: 22, y: -33}
+        - {x: 23, y: -30}
+        - {x: 19, y: -26}
+        - {x: 19, y: -25}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 05a6177523e39184a8354a2f2a2b0512
+      internalID: 743397330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 288
+        width: 58
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 17, y: -22.5}
+        - {x: 17, y: -15.5}
+        - {x: 16, y: -14.5}
+        - {x: 17, y: -13.5}
+        - {x: 17, y: -11.5}
+        - {x: 16, y: -10.5}
+        - {x: 17, y: -9.5}
+        - {x: 17, y: -5.5}
+        - {x: 15, y: -2.5}
+        - {x: 15, y: 1.5}
+        - {x: 14, y: 2.5}
+        - {x: 20, y: 6.5}
+        - {x: 25, y: 7.5}
+        - {x: 29, y: 10.5}
+        - {x: 29, y: 18.5}
+        - {x: 28, y: 21.5}
+        - {x: 22, y: 27.5}
+        - {x: 15, y: 30.5}
+        - {x: 13, y: 30.5}
+        - {x: 10, y: 32.5}
+        - {x: -11, y: 32.5}
+        - {x: -16, y: 30.5}
+        - {x: -29, y: 16.5}
+        - {x: -29, y: 9.5}
+        - {x: -28, y: 7.5}
+        - {x: -23, y: 5.5}
+        - {x: -21, y: 5.5}
+        - {x: -20, y: 4.5}
+        - {x: -13, y: 3.5}
+        - {x: -11, y: 2.5}
+        - {x: -12, y: 1.5}
+        - {x: -12, y: -9.5}
+        - {x: -13, y: -10.5}
+        - {x: -13, y: -16.5}
+        - {x: -14, y: -16.5}
+        - {x: -18, y: -20.5}
+        - {x: -18, y: -21.5}
+        - {x: -16, y: -24.5}
+        - {x: -18, y: -24.5}
+        - {x: -22, y: -29.5}
+        - {x: -22, y: -30.5}
+        - {x: -20, y: -32.5}
+        - {x: 22, y: -32.5}
+        - {x: 23, y: -29.5}
+        - {x: 19, y: -25.5}
+        - {x: 19, y: -24.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 2e651742da8630a428a494e7170d190d
+      internalID: -1092331484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 288
+        width: 58
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 18, y: -21.5}
+        - {x: 18, y: -17.5}
+        - {x: 16, y: -14.5}
+        - {x: 17, y: -13.5}
+        - {x: 17, y: -11.5}
+        - {x: 16, y: -10.5}
+        - {x: 17, y: -9.5}
+        - {x: 17, y: -6.5}
+        - {x: 15, y: -3.5}
+        - {x: 15, y: 0.5}
+        - {x: 14, y: 1.5}
+        - {x: 20, y: 5.5}
+        - {x: 25, y: 6.5}
+        - {x: 29, y: 9.5}
+        - {x: 29, y: 17.5}
+        - {x: 28, y: 20.5}
+        - {x: 22, y: 26.5}
+        - {x: 15, y: 29.5}
+        - {x: 13, y: 29.5}
+        - {x: 10, y: 31.5}
+        - {x: -11, y: 31.5}
+        - {x: -16, y: 29.5}
+        - {x: -29, y: 15.5}
+        - {x: -29, y: 8.5}
+        - {x: -28, y: 6.5}
+        - {x: -23, y: 4.5}
+        - {x: -21, y: 4.5}
+        - {x: -20, y: 3.5}
+        - {x: -13, y: 2.5}
+        - {x: -11, y: 1.5}
+        - {x: -12, y: 0.5}
+        - {x: -12, y: -15.5}
+        - {x: -13, y: -15.5}
+        - {x: -17, y: -19.5}
+        - {x: -17, y: -20.5}
+        - {x: -15, y: -23.5}
+        - {x: -17, y: -23.5}
+        - {x: -21, y: -28.5}
+        - {x: -21, y: -29.5}
+        - {x: -19, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 24, y: -28.5}
+        - {x: 20, y: -24.5}
+        - {x: 20, y: -23.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 0ecdbcbc26322bb48ae777821a2e1bb6
+      internalID: 1387744171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 288
+        width: 58
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 16, y: -7.5}
+        - {x: 14, y: -4.5}
+        - {x: 14, y: -0.5}
+        - {x: 13, y: 0.5}
+        - {x: 19, y: 4.5}
+        - {x: 24, y: 5.5}
+        - {x: 27, y: 6.5}
+        - {x: 29, y: 9.5}
+        - {x: 29, y: 14.5}
+        - {x: 27, y: 19.5}
+        - {x: 21, y: 25.5}
+        - {x: 14, y: 28.5}
+        - {x: 12, y: 28.5}
+        - {x: 9, y: 30.5}
+        - {x: -12, y: 30.5}
+        - {x: -17, y: 28.5}
+        - {x: -29, y: 15.5}
+        - {x: -29, y: 5.5}
+        - {x: -24, y: 3.5}
+        - {x: -22, y: 3.5}
+        - {x: -21, y: 2.5}
+        - {x: -14, y: 1.5}
+        - {x: -12, y: 0.5}
+        - {x: -12, y: -14.5}
+        - {x: -11, y: -15.5}
+        - {x: -15, y: -19.5}
+        - {x: -15, y: -20.5}
+        - {x: -14, y: -22.5}
+        - {x: -19, y: -27.5}
+        - {x: -19, y: -28.5}
+        - {x: -17, y: -30.5}
+        - {x: 25, y: -30.5}
+        - {x: 26, y: -27.5}
+        - {x: 20, y: -20.5}
+        - {x: 16, y: -13.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: e79e9425cd28a894cafbc5572a47bd8e
+      internalID: -662719004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 288
+        width: 58
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 16, y: -14}
+        - {x: 17, y: -13}
+        - {x: 17, y: -8}
+        - {x: 15, y: -5}
+        - {x: 15, y: -1}
+        - {x: 14, y: 0}
+        - {x: 20, y: 4}
+        - {x: 25, y: 5}
+        - {x: 29, y: 8}
+        - {x: 29, y: 16}
+        - {x: 28, y: 19}
+        - {x: 22, y: 25}
+        - {x: 15, y: 28}
+        - {x: 13, y: 28}
+        - {x: 10, y: 30}
+        - {x: -11, y: 30}
+        - {x: -16, y: 28}
+        - {x: -29, y: 14}
+        - {x: -29, y: 7}
+        - {x: -28, y: 5}
+        - {x: -23, y: 3}
+        - {x: -21, y: 3}
+        - {x: -20, y: 2}
+        - {x: -13, y: 1}
+        - {x: -11, y: 0}
+        - {x: -11, y: -9}
+        - {x: -12, y: -10}
+        - {x: -12, y: -13}
+        - {x: -13, y: -14}
+        - {x: -17, y: -19}
+        - {x: -17, y: -20}
+        - {x: -16, y: -23}
+        - {x: -20, y: -27}
+        - {x: -20, y: -28}
+        - {x: -18, y: -30}
+        - {x: 24, y: -30}
+        - {x: 25, y: -27}
+        - {x: 22, y: -23}
+        - {x: 18, y: -15}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 82535fcffa7622f42bea60a3bffb1b73
+      internalID: 667802318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 288
+        width: 58
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 16, y: -14.5}
+        - {x: 17, y: -13.5}
+        - {x: 17, y: -7.5}
+        - {x: 15, y: -4.5}
+        - {x: 15, y: -0.5}
+        - {x: 14, y: 0.5}
+        - {x: 20, y: 4.5}
+        - {x: 25, y: 5.5}
+        - {x: 29, y: 8.5}
+        - {x: 29, y: 16.5}
+        - {x: 28, y: 19.5}
+        - {x: 22, y: 25.5}
+        - {x: 15, y: 28.5}
+        - {x: 13, y: 28.5}
+        - {x: 10, y: 30.5}
+        - {x: -11, y: 30.5}
+        - {x: -16, y: 28.5}
+        - {x: -29, y: 14.5}
+        - {x: -29, y: 7.5}
+        - {x: -28, y: 5.5}
+        - {x: -23, y: 3.5}
+        - {x: -21, y: 3.5}
+        - {x: -20, y: 2.5}
+        - {x: -13, y: 1.5}
+        - {x: -11, y: 0.5}
+        - {x: -12, y: -0.5}
+        - {x: -12, y: -8.5}
+        - {x: -13, y: -9.5}
+        - {x: -13, y: -13.5}
+        - {x: -14, y: -14.5}
+        - {x: -18, y: -19.5}
+        - {x: -18, y: -20.5}
+        - {x: -17, y: -22.5}
+        - {x: -22, y: -27.5}
+        - {x: -22, y: -28.5}
+        - {x: -20, y: -30.5}
+        - {x: 22, y: -30.5}
+        - {x: 23, y: -27.5}
+        - {x: 18, y: -22.5}
+        - {x: 18, y: -18.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 793ea25645981444290938201eed7c8d
+      internalID: -612914036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 288
+        width: 58
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 16, y: -21.5}
+        - {x: 16, y: -18.5}
+        - {x: 17, y: -17.5}
+        - {x: 17, y: -11.5}
+        - {x: 16, y: -10.5}
+        - {x: 17, y: -9.5}
+        - {x: 17, y: -6.5}
+        - {x: 15, y: -3.5}
+        - {x: 15, y: 0.5}
+        - {x: 14, y: 1.5}
+        - {x: 20, y: 5.5}
+        - {x: 25, y: 6.5}
+        - {x: 29, y: 9.5}
+        - {x: 29, y: 17.5}
+        - {x: 28, y: 20.5}
+        - {x: 22, y: 26.5}
+        - {x: 15, y: 29.5}
+        - {x: 13, y: 29.5}
+        - {x: 10, y: 31.5}
+        - {x: -11, y: 31.5}
+        - {x: -16, y: 29.5}
+        - {x: -29, y: 15.5}
+        - {x: -29, y: 8.5}
+        - {x: -28, y: 6.5}
+        - {x: -23, y: 4.5}
+        - {x: -21, y: 4.5}
+        - {x: -20, y: 3.5}
+        - {x: -13, y: 2.5}
+        - {x: -11, y: 1.5}
+        - {x: -12, y: 0.5}
+        - {x: -12, y: -10.5}
+        - {x: -15, y: -15.5}
+        - {x: -19, y: -19.5}
+        - {x: -19, y: -20.5}
+        - {x: -17, y: -23.5}
+        - {x: -19, y: -23.5}
+        - {x: -23, y: -28.5}
+        - {x: -23, y: -29.5}
+        - {x: -21, y: -31.5}
+        - {x: 21, y: -31.5}
+        - {x: 22, y: -28.5}
+        - {x: 18, y: -24.5}
+        - {x: 18, y: -23.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 753a2757c82a79546903a197c4945fac
+      internalID: 1879262853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 288
+        width: 58
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 17, y: -18.5}
+        - {x: 17, y: -11.5}
+        - {x: 16, y: -10.5}
+        - {x: 17, y: -9.5}
+        - {x: 17, y: -5.5}
+        - {x: 15, y: -2.5}
+        - {x: 15, y: 1.5}
+        - {x: 14, y: 2.5}
+        - {x: 20, y: 6.5}
+        - {x: 25, y: 7.5}
+        - {x: 29, y: 10.5}
+        - {x: 29, y: 18.5}
+        - {x: 28, y: 21.5}
+        - {x: 22, y: 27.5}
+        - {x: 15, y: 30.5}
+        - {x: 13, y: 30.5}
+        - {x: 10, y: 32.5}
+        - {x: -11, y: 32.5}
+        - {x: -16, y: 30.5}
+        - {x: -29, y: 16.5}
+        - {x: -29, y: 9.5}
+        - {x: -28, y: 7.5}
+        - {x: -23, y: 5.5}
+        - {x: -21, y: 5.5}
+        - {x: -20, y: 4.5}
+        - {x: -13, y: 3.5}
+        - {x: -11, y: 2.5}
+        - {x: -12, y: 1.5}
+        - {x: -13, y: -9.5}
+        - {x: -14, y: -10.5}
+        - {x: -14, y: -13.5}
+        - {x: -16, y: -16.5}
+        - {x: -20, y: -20.5}
+        - {x: -20, y: -21.5}
+        - {x: -18, y: -24.5}
+        - {x: -20, y: -24.5}
+        - {x: -24, y: -29.5}
+        - {x: -24, y: -30.5}
+        - {x: -22, y: -32.5}
+        - {x: 20, y: -32.5}
+        - {x: 21, y: -29.5}
+        - {x: 17, y: -24.5}
+        - {x: 15, y: -21.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 0185bbcc411ae8a40904fb80349f57c3
+      internalID: -948638121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 288
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 16, y: -23}
+        - {x: 16, y: -20}
+        - {x: 17, y: -19}
+        - {x: 17, y: -16}
+        - {x: 16, y: -15}
+        - {x: 17, y: -14}
+        - {x: 17, y: -12}
+        - {x: 16, y: -11}
+        - {x: 17, y: -10}
+        - {x: 17, y: -6}
+        - {x: 15, y: -3}
+        - {x: 15, y: 2}
+        - {x: 14, y: 3}
+        - {x: 20, y: 7}
+        - {x: 25, y: 8}
+        - {x: 29, y: 11}
+        - {x: 29, y: 19}
+        - {x: 28, y: 22}
+        - {x: 22, y: 28}
+        - {x: 15, y: 31}
+        - {x: 13, y: 31}
+        - {x: 10, y: 33}
+        - {x: -11, y: 33}
+        - {x: -16, y: 31}
+        - {x: -29, y: 17}
+        - {x: -29, y: 10}
+        - {x: -28, y: 8}
+        - {x: -23, y: 6}
+        - {x: -21, y: 6}
+        - {x: -20, y: 5}
+        - {x: -13, y: 4}
+        - {x: -11, y: 3}
+        - {x: -12, y: 1}
+        - {x: -12, y: -10}
+        - {x: -13, y: -11}
+        - {x: -14, y: -17}
+        - {x: -15, y: -17}
+        - {x: -19, y: -21}
+        - {x: -19, y: -22}
+        - {x: -17, y: -25}
+        - {x: -19, y: -25}
+        - {x: -23, y: -30}
+        - {x: -23, y: -31}
+        - {x: -21, y: -33}
+        - {x: 21, y: -33}
+        - {x: 22, y: -30}
+        - {x: 18, y: -26}
+        - {x: 18, y: -25}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 28dfe6f5071628b48b5ecec4f71c0bff
+      internalID: -897749267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 192
+        width: 58
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 17, y: -22.5}
+        - {x: 17, y: -15.5}
+        - {x: 16, y: -14.5}
+        - {x: 17, y: -13.5}
+        - {x: 17, y: -11.5}
+        - {x: 16, y: -10.5}
+        - {x: 17, y: -9.5}
+        - {x: 17, y: -5.5}
+        - {x: 15, y: -2.5}
+        - {x: 15, y: 1.5}
+        - {x: 14, y: 2.5}
+        - {x: 20, y: 6.5}
+        - {x: 25, y: 7.5}
+        - {x: 29, y: 10.5}
+        - {x: 29, y: 18.5}
+        - {x: 28, y: 21.5}
+        - {x: 22, y: 27.5}
+        - {x: 15, y: 30.5}
+        - {x: 13, y: 30.5}
+        - {x: 10, y: 32.5}
+        - {x: -11, y: 32.5}
+        - {x: -16, y: 30.5}
+        - {x: -29, y: 16.5}
+        - {x: -29, y: 9.5}
+        - {x: -28, y: 7.5}
+        - {x: -23, y: 5.5}
+        - {x: -21, y: 5.5}
+        - {x: -20, y: 4.5}
+        - {x: -13, y: 3.5}
+        - {x: -11, y: 2.5}
+        - {x: -12, y: 1.5}
+        - {x: -12, y: -9.5}
+        - {x: -13, y: -10.5}
+        - {x: -13, y: -16.5}
+        - {x: -14, y: -16.5}
+        - {x: -18, y: -20.5}
+        - {x: -18, y: -21.5}
+        - {x: -16, y: -24.5}
+        - {x: -18, y: -24.5}
+        - {x: -22, y: -29.5}
+        - {x: -22, y: -30.5}
+        - {x: -20, y: -32.5}
+        - {x: 22, y: -32.5}
+        - {x: 23, y: -29.5}
+        - {x: 19, y: -25.5}
+        - {x: 19, y: -24.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 6e880ef6f8b3a7d419b2004d87aede03
+      internalID: 1230233332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 192
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 19, y: -19}
+        - {x: 16, y: -13}
+        - {x: 17, y: -12}
+        - {x: 17, y: -10}
+        - {x: 16, y: -9}
+        - {x: 17, y: -8}
+        - {x: 17, y: -5}
+        - {x: 15, y: -2}
+        - {x: 15, y: 2}
+        - {x: 14, y: 3}
+        - {x: 20, y: 7}
+        - {x: 25, y: 8}
+        - {x: 29, y: 11}
+        - {x: 29, y: 19}
+        - {x: 28, y: 22}
+        - {x: 22, y: 28}
+        - {x: 15, y: 31}
+        - {x: 13, y: 31}
+        - {x: 10, y: 33}
+        - {x: -11, y: 33}
+        - {x: -16, y: 31}
+        - {x: -29, y: 17}
+        - {x: -29, y: 10}
+        - {x: -28, y: 8}
+        - {x: -23, y: 6}
+        - {x: -21, y: 6}
+        - {x: -20, y: 5}
+        - {x: -13, y: 4}
+        - {x: -11, y: 3}
+        - {x: -12, y: 2}
+        - {x: -12, y: -17}
+        - {x: -13, y: -17}
+        - {x: -17, y: -21}
+        - {x: -17, y: -22}
+        - {x: -15, y: -25}
+        - {x: -17, y: -25}
+        - {x: -21, y: -30}
+        - {x: -21, y: -31}
+        - {x: -19, y: -33}
+        - {x: 23, y: -33}
+        - {x: 24, y: -30}
+        - {x: 20, y: -25}
+        - {x: 19, y: -24}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 75a2dff2b4a8471419b9a76729cfc778
+      internalID: -364815377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 192
+        width: 58
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 25, y: -24.5}
+        - {x: 25, y: -18.5}
+        - {x: 24, y: -15.5}
+        - {x: 20, y: -12.5}
+        - {x: 20, y: -4.5}
+        - {x: 18, y: -1.5}
+        - {x: 18, y: 0.5}
+        - {x: 16, y: 3.5}
+        - {x: 16, y: 5.5}
+        - {x: 20, y: 7.5}
+        - {x: 25, y: 8.5}
+        - {x: 29, y: 11.5}
+        - {x: 29, y: 19.5}
+        - {x: 28, y: 22.5}
+        - {x: 22, y: 28.5}
+        - {x: 15, y: 31.5}
+        - {x: 13, y: 31.5}
+        - {x: 10, y: 33.5}
+        - {x: -11, y: 33.5}
+        - {x: -16, y: 31.5}
+        - {x: -29, y: 17.5}
+        - {x: -29, y: 10.5}
+        - {x: -28, y: 8.5}
+        - {x: -23, y: 6.5}
+        - {x: -17, y: 5.5}
+        - {x: -16, y: 4.5}
+        - {x: -13, y: 4.5}
+        - {x: -10, y: 2.5}
+        - {x: -10, y: -0.5}
+        - {x: -9, y: -1.5}
+        - {x: -9, y: -8.5}
+        - {x: -8, y: -9.5}
+        - {x: -7, y: -17.5}
+        - {x: -9, y: -17.5}
+        - {x: -12, y: -21.5}
+        - {x: -10, y: -25.5}
+        - {x: -12, y: -25.5}
+        - {x: -16, y: -30.5}
+        - {x: -16, y: -31.5}
+        - {x: -14, y: -33.5}
+        - {x: 28, y: -33.5}
+        - {x: 29, y: -30.5}
+        - {x: 26, y: -27.5}
+        - {x: 26, y: -25.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 8c2a1d2badab0364ba04af7fac01ab70
+      internalID: 705597735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 192
+        width: 58
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 28, y: -19.5}
+        - {x: 27, y: -18.5}
+        - {x: 27, y: -16.5}
+        - {x: 25, y: -14.5}
+        - {x: 25, y: -12.5}
+        - {x: 20, y: -7.5}
+        - {x: 20, y: -4.5}
+        - {x: 18, y: -1.5}
+        - {x: 18, y: 0.5}
+        - {x: 16, y: 3.5}
+        - {x: 16, y: 5.5}
+        - {x: 20, y: 7.5}
+        - {x: 25, y: 8.5}
+        - {x: 29, y: 11.5}
+        - {x: 29, y: 19.5}
+        - {x: 28, y: 22.5}
+        - {x: 22, y: 28.5}
+        - {x: 15, y: 31.5}
+        - {x: 13, y: 31.5}
+        - {x: 10, y: 33.5}
+        - {x: -11, y: 33.5}
+        - {x: -16, y: 31.5}
+        - {x: -29, y: 17.5}
+        - {x: -29, y: 10.5}
+        - {x: -28, y: 8.5}
+        - {x: -23, y: 6.5}
+        - {x: -17, y: 5.5}
+        - {x: -16, y: 4.5}
+        - {x: -13, y: 4.5}
+        - {x: -10, y: 2.5}
+        - {x: -10, y: -0.5}
+        - {x: -9, y: -1.5}
+        - {x: -9, y: -8.5}
+        - {x: -8, y: -9.5}
+        - {x: -7, y: -18.5}
+        - {x: -10, y: -21.5}
+        - {x: -10, y: -22.5}
+        - {x: -8, y: -25.5}
+        - {x: -10, y: -25.5}
+        - {x: -14, y: -30.5}
+        - {x: -14, y: -31.5}
+        - {x: -12, y: -33.5}
+        - {x: 29, y: -33.5}
+        - {x: 29, y: -28.5}
+        - {x: 28, y: -27.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: f969c3c7a334c414785d96b2e18d1789
+      internalID: 1809903220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 192
+        width: 59
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 29.5, y: -19.5}
+        - {x: 26.5, y: -15.5}
+        - {x: 26.5, y: -11.5}
+        - {x: 18.5, y: -3.5}
+        - {x: 17.5, y: 0.5}
+        - {x: 15.5, y: 3.5}
+        - {x: 15.5, y: 5.5}
+        - {x: 19.5, y: 7.5}
+        - {x: 21.5, y: 7.5}
+        - {x: 22.5, y: 8.5}
+        - {x: 26.5, y: 9.5}
+        - {x: 29.5, y: 12.5}
+        - {x: 29.5, y: 17.5}
+        - {x: 27.5, y: 22.5}
+        - {x: 21.5, y: 28.5}
+        - {x: 14.5, y: 31.5}
+        - {x: 12.5, y: 31.5}
+        - {x: 9.5, y: 33.5}
+        - {x: -11.5, y: 33.5}
+        - {x: -16.5, y: 31.5}
+        - {x: -29.5, y: 17.5}
+        - {x: -29.5, y: 10.5}
+        - {x: -28.5, y: 8.5}
+        - {x: -23.5, y: 6.5}
+        - {x: -17.5, y: 5.5}
+        - {x: -16.5, y: 4.5}
+        - {x: -13.5, y: 4.5}
+        - {x: -10.5, y: 2.5}
+        - {x: -10.5, y: -0.5}
+        - {x: -9.5, y: -1.5}
+        - {x: -9.5, y: -8.5}
+        - {x: -8.5, y: -9.5}
+        - {x: -8.5, y: -13.5}
+        - {x: -7.5, y: -14.5}
+        - {x: -7.5, y: -17.5}
+        - {x: -6.5, y: -18.5}
+        - {x: -9.5, y: -21.5}
+        - {x: -9.5, y: -22.5}
+        - {x: -7.5, y: -25.5}
+        - {x: -9.5, y: -25.5}
+        - {x: -13.5, y: -30.5}
+        - {x: -13.5, y: -31.5}
+        - {x: -11.5, y: -33.5}
+        - {x: 29.5, y: -33.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: e7a04f3a67cdc4b4180db0c3751a30a7
+      internalID: 458393546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 192
+        width: 58
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 28, y: -19.5}
+        - {x: 27, y: -18.5}
+        - {x: 26, y: -14.5}
+        - {x: 27, y: -13.5}
+        - {x: 27, y: -10.5}
+        - {x: 21, y: -3.5}
+        - {x: 19, y: -2.5}
+        - {x: 18, y: 0.5}
+        - {x: 16, y: 3.5}
+        - {x: 16, y: 5.5}
+        - {x: 20, y: 7.5}
+        - {x: 25, y: 8.5}
+        - {x: 29, y: 11.5}
+        - {x: 29, y: 19.5}
+        - {x: 28, y: 22.5}
+        - {x: 22, y: 28.5}
+        - {x: 15, y: 31.5}
+        - {x: 13, y: 31.5}
+        - {x: 10, y: 33.5}
+        - {x: -11, y: 33.5}
+        - {x: -16, y: 31.5}
+        - {x: -29, y: 17.5}
+        - {x: -29, y: 10.5}
+        - {x: -28, y: 8.5}
+        - {x: -23, y: 6.5}
+        - {x: -17, y: 5.5}
+        - {x: -16, y: 4.5}
+        - {x: -13, y: 4.5}
+        - {x: -10, y: 2.5}
+        - {x: -10, y: -0.5}
+        - {x: -9, y: -1.5}
+        - {x: -9, y: -8.5}
+        - {x: -8, y: -9.5}
+        - {x: -7, y: -18.5}
+        - {x: -10, y: -21.5}
+        - {x: -10, y: -22.5}
+        - {x: -8, y: -25.5}
+        - {x: -10, y: -25.5}
+        - {x: -14, y: -30.5}
+        - {x: -14, y: -31.5}
+        - {x: -12, y: -33.5}
+        - {x: 29, y: -33.5}
+        - {x: 29, y: -28.5}
+        - {x: 28, y: -27.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 0aaaa91263f8e1a4093600dfedb924a2
+      internalID: 1560672232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 192
+        width: 58
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 29, y: -20.5}
+        - {x: 28, y: -18.5}
+        - {x: 26, y: -18.5}
+        - {x: 29, y: -15.5}
+        - {x: 29, y: -10.5}
+        - {x: 23, y: -4.5}
+        - {x: 20, y: -4.5}
+        - {x: 19, y: -3.5}
+        - {x: 18, y: 0.5}
+        - {x: 16, y: 3.5}
+        - {x: 16, y: 5.5}
+        - {x: 20, y: 7.5}
+        - {x: 25, y: 8.5}
+        - {x: 29, y: 11.5}
+        - {x: 29, y: 19.5}
+        - {x: 28, y: 22.5}
+        - {x: 22, y: 28.5}
+        - {x: 15, y: 31.5}
+        - {x: 13, y: 31.5}
+        - {x: 10, y: 33.5}
+        - {x: -11, y: 33.5}
+        - {x: -16, y: 31.5}
+        - {x: -29, y: 17.5}
+        - {x: -29, y: 10.5}
+        - {x: -28, y: 8.5}
+        - {x: -23, y: 6.5}
+        - {x: -17, y: 5.5}
+        - {x: -16, y: 4.5}
+        - {x: -13, y: 4.5}
+        - {x: -10, y: 2.5}
+        - {x: -10, y: -0.5}
+        - {x: -9, y: -1.5}
+        - {x: -9, y: -8.5}
+        - {x: -8, y: -9.5}
+        - {x: -7, y: -17.5}
+        - {x: -9, y: -17.5}
+        - {x: -12, y: -21.5}
+        - {x: -10, y: -25.5}
+        - {x: -12, y: -25.5}
+        - {x: -16, y: -30.5}
+        - {x: -16, y: -31.5}
+        - {x: -14, y: -33.5}
+        - {x: 28, y: -33.5}
+        - {x: 29, y: -30.5}
+        - {x: 26, y: -27.5}
+        - {x: 29, y: -25.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: a26679832c0db484089ba13718d0c2f2
+      internalID: -1393054751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 192
+        width: 59
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 25.5, y: -31}
+        - {x: 26.5, y: -31}
+        - {x: 27.5, y: -30}
+        - {x: 29.5, y: -30}
+        - {x: 29.5, y: -24}
+        - {x: 28.5, y: -23}
+        - {x: 29.5, y: -22}
+        - {x: 29.5, y: -19}
+        - {x: 22.5, y: -12}
+        - {x: 16.5, y: -12}
+        - {x: 16.5, y: -10}
+        - {x: 15.5, y: -9}
+        - {x: 16.5, y: -8}
+        - {x: 16.5, y: -5}
+        - {x: 14.5, y: -2}
+        - {x: 14.5, y: 2}
+        - {x: 13.5, y: 3}
+        - {x: 19.5, y: 7}
+        - {x: 24.5, y: 8}
+        - {x: 27.5, y: 9}
+        - {x: 29.5, y: 12}
+        - {x: 29.5, y: 17}
+        - {x: 27.5, y: 22}
+        - {x: 21.5, y: 28}
+        - {x: 14.5, y: 31}
+        - {x: 12.5, y: 31}
+        - {x: 9.5, y: 33}
+        - {x: -11.5, y: 33}
+        - {x: -16.5, y: 31}
+        - {x: -29.5, y: 17}
+        - {x: -29.5, y: 10}
+        - {x: -28.5, y: 8}
+        - {x: -23.5, y: 6}
+        - {x: -21.5, y: 6}
+        - {x: -20.5, y: 5}
+        - {x: -13.5, y: 4}
+        - {x: -11.5, y: 3}
+        - {x: -12.5, y: 2}
+        - {x: -12.5, y: -17}
+        - {x: -13.5, y: -17}
+        - {x: -17.5, y: -21}
+        - {x: -17.5, y: -22}
+        - {x: -15.5, y: -25}
+        - {x: -17.5, y: -25}
+        - {x: -21.5, y: -30}
+        - {x: -21.5, y: -31}
+        - {x: -19.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: -30}
+        - {x: 22.5, y: -29}
+        - {x: 23.5, y: -29}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 4985e37fed52437459d2a66b567ab23e
+      internalID: -250026050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 192
+        width: 58
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 29, y: -28.5}
+        - {x: 29, y: -25.5}
+        - {x: 27, y: -22.5}
+        - {x: 25, y: -22.5}
+        - {x: 29, y: -18.5}
+        - {x: 29, y: -15.5}
+        - {x: 22, y: -8.5}
+        - {x: 17, y: -8.5}
+        - {x: 17, y: -5.5}
+        - {x: 15, y: -2.5}
+        - {x: 15, y: 1.5}
+        - {x: 14, y: 2.5}
+        - {x: 20, y: 6.5}
+        - {x: 25, y: 7.5}
+        - {x: 29, y: 10.5}
+        - {x: 29, y: 18.5}
+        - {x: 28, y: 21.5}
+        - {x: 22, y: 27.5}
+        - {x: 15, y: 30.5}
+        - {x: 13, y: 30.5}
+        - {x: 10, y: 32.5}
+        - {x: -11, y: 32.5}
+        - {x: -16, y: 30.5}
+        - {x: -29, y: 16.5}
+        - {x: -29, y: 9.5}
+        - {x: -28, y: 7.5}
+        - {x: -23, y: 5.5}
+        - {x: -21, y: 5.5}
+        - {x: -20, y: 4.5}
+        - {x: -13, y: 3.5}
+        - {x: -11, y: 2.5}
+        - {x: -12, y: 1.5}
+        - {x: -12, y: -9.5}
+        - {x: -13, y: -10.5}
+        - {x: -13, y: -16.5}
+        - {x: -14, y: -16.5}
+        - {x: -18, y: -20.5}
+        - {x: -18, y: -21.5}
+        - {x: -16, y: -24.5}
+        - {x: -18, y: -24.5}
+        - {x: -22, y: -29.5}
+        - {x: -22, y: -30.5}
+        - {x: -20, y: -32.5}
+        - {x: 23, y: -32.5}
+        - {x: 23, y: -30.5}
+        - {x: 27, y: -30.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: e07c8fcbfd5ed1e43afb7201f3a7018c
+      internalID: -1743034175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 192
+        width: 58
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 29, y: -28.5}
+        - {x: 29, y: -25.5}
+        - {x: 25, y: -21.5}
+        - {x: 29, y: -17.5}
+        - {x: 29, y: -14.5}
+        - {x: 22, y: -7.5}
+        - {x: 17, y: -7.5}
+        - {x: 17, y: -5.5}
+        - {x: 15, y: -2.5}
+        - {x: 15, y: 1.5}
+        - {x: 14, y: 2.5}
+        - {x: 20, y: 6.5}
+        - {x: 25, y: 7.5}
+        - {x: 29, y: 10.5}
+        - {x: 29, y: 18.5}
+        - {x: 28, y: 21.5}
+        - {x: 22, y: 27.5}
+        - {x: 15, y: 30.5}
+        - {x: 13, y: 30.5}
+        - {x: 10, y: 32.5}
+        - {x: -11, y: 32.5}
+        - {x: -16, y: 30.5}
+        - {x: -29, y: 16.5}
+        - {x: -29, y: 9.5}
+        - {x: -28, y: 7.5}
+        - {x: -23, y: 5.5}
+        - {x: -21, y: 5.5}
+        - {x: -20, y: 4.5}
+        - {x: -13, y: 3.5}
+        - {x: -11, y: 2.5}
+        - {x: -12, y: 1.5}
+        - {x: -12, y: -9.5}
+        - {x: -13, y: -10.5}
+        - {x: -13, y: -16.5}
+        - {x: -14, y: -16.5}
+        - {x: -18, y: -20.5}
+        - {x: -18, y: -21.5}
+        - {x: -16, y: -24.5}
+        - {x: -18, y: -24.5}
+        - {x: -22, y: -29.5}
+        - {x: -22, y: -30.5}
+        - {x: -20, y: -32.5}
+        - {x: 23, y: -32.5}
+        - {x: 23, y: -30.5}
+        - {x: 27, y: -30.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: ec01a82c1db396a47acd9ae9d94a9b19
+      internalID: 1511351345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 58
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 17, y: -22.5}
+        - {x: 17, y: -15.5}
+        - {x: 16, y: -14.5}
+        - {x: 17, y: -13.5}
+        - {x: 17, y: -11.5}
+        - {x: 16, y: -10.5}
+        - {x: 17, y: -9.5}
+        - {x: 17, y: -5.5}
+        - {x: 15, y: -2.5}
+        - {x: 15, y: 1.5}
+        - {x: 14, y: 2.5}
+        - {x: 20, y: 6.5}
+        - {x: 25, y: 7.5}
+        - {x: 29, y: 10.5}
+        - {x: 29, y: 18.5}
+        - {x: 28, y: 21.5}
+        - {x: 22, y: 27.5}
+        - {x: 15, y: 30.5}
+        - {x: 13, y: 30.5}
+        - {x: 10, y: 32.5}
+        - {x: -11, y: 32.5}
+        - {x: -16, y: 30.5}
+        - {x: -29, y: 16.5}
+        - {x: -29, y: 9.5}
+        - {x: -28, y: 7.5}
+        - {x: -23, y: 5.5}
+        - {x: -21, y: 5.5}
+        - {x: -20, y: 4.5}
+        - {x: -13, y: 3.5}
+        - {x: -11, y: 2.5}
+        - {x: -12, y: 1.5}
+        - {x: -12, y: -9.5}
+        - {x: -13, y: -10.5}
+        - {x: -13, y: -16.5}
+        - {x: -14, y: -16.5}
+        - {x: -18, y: -20.5}
+        - {x: -18, y: -21.5}
+        - {x: -16, y: -24.5}
+        - {x: -18, y: -24.5}
+        - {x: -22, y: -29.5}
+        - {x: -22, y: -30.5}
+        - {x: -20, y: -32.5}
+        - {x: 22, y: -32.5}
+        - {x: 23, y: -29.5}
+        - {x: 19, y: -25.5}
+        - {x: 19, y: -24.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 81c9aac65a4fa1843aa4d9d71bb2a713
+      internalID: 1309946787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 58
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 17, y: -22}
+        - {x: 17, y: -16}
+        - {x: 16, y: -15}
+        - {x: 17, y: -14}
+        - {x: 17, y: -12}
+        - {x: 16, y: -11}
+        - {x: 17, y: -10}
+        - {x: 17, y: -6}
+        - {x: 15, y: -3}
+        - {x: 15, y: 1}
+        - {x: 14, y: 2}
+        - {x: 20, y: 6}
+        - {x: 25, y: 7}
+        - {x: 29, y: 10}
+        - {x: 29, y: 18}
+        - {x: 28, y: 21}
+        - {x: 22, y: 27}
+        - {x: 15, y: 30}
+        - {x: 13, y: 30}
+        - {x: 10, y: 32}
+        - {x: -11, y: 32}
+        - {x: -16, y: 30}
+        - {x: -29, y: 16}
+        - {x: -29, y: 9}
+        - {x: -28, y: 7}
+        - {x: -23, y: 5}
+        - {x: -21, y: 5}
+        - {x: -20, y: 4}
+        - {x: -13, y: 3}
+        - {x: -11, y: 2}
+        - {x: -12, y: 1}
+        - {x: -12, y: -10}
+        - {x: -13, y: -11}
+        - {x: -13, y: -16}
+        - {x: -14, y: -16}
+        - {x: -18, y: -20}
+        - {x: -18, y: -21}
+        - {x: -16, y: -24}
+        - {x: -18, y: -24}
+        - {x: -22, y: -29}
+        - {x: -22, y: -30}
+        - {x: -20, y: -32}
+        - {x: 22, y: -32}
+        - {x: 23, y: -29}
+        - {x: 19, y: -25}
+        - {x: 19, y: -24}
+      tessellationDetail: 1
+      bones: []
+      spriteID: d754fccef2f5f694ca6ab0726733c108
+      internalID: -1553766692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 96
+        width: 58
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 17, y: -21}
+        - {x: 17, y: -16}
+        - {x: 16, y: -15}
+        - {x: 17, y: -14}
+        - {x: 17, y: -12}
+        - {x: 16, y: -11}
+        - {x: 17, y: -10}
+        - {x: 17, y: -6}
+        - {x: 15, y: -3}
+        - {x: 15, y: 0}
+        - {x: 14, y: 1}
+        - {x: 20, y: 5}
+        - {x: 25, y: 6}
+        - {x: 29, y: 9}
+        - {x: 29, y: 17}
+        - {x: 28, y: 20}
+        - {x: 22, y: 26}
+        - {x: 15, y: 29}
+        - {x: 13, y: 29}
+        - {x: 10, y: 31}
+        - {x: -11, y: 31}
+        - {x: -16, y: 29}
+        - {x: -29, y: 15}
+        - {x: -29, y: 8}
+        - {x: -28, y: 6}
+        - {x: -23, y: 4}
+        - {x: -21, y: 4}
+        - {x: -20, y: 3}
+        - {x: -13, y: 2}
+        - {x: -11, y: 1}
+        - {x: -12, y: 0}
+        - {x: -12, y: -10}
+        - {x: -13, y: -11}
+        - {x: -13, y: -15}
+        - {x: -14, y: -15}
+        - {x: -18, y: -19}
+        - {x: -18, y: -20}
+        - {x: -16, y: -23}
+        - {x: -18, y: -23}
+        - {x: -22, y: -28}
+        - {x: -22, y: -29}
+        - {x: -20, y: -31}
+        - {x: 22, y: -31}
+        - {x: 23, y: -28}
+        - {x: 19, y: -24}
+        - {x: 19, y: -23}
+      tessellationDetail: 1
+      bones: []
+      spriteID: f1640eff5392b9c4fa1b0e8bf29f078f
+      internalID: 1611321826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 96
+        width: 58
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 17, y: -22}
+        - {x: 17, y: -16}
+        - {x: 16, y: -15}
+        - {x: 17, y: -14}
+        - {x: 17, y: -12}
+        - {x: 16, y: -11}
+        - {x: 17, y: -10}
+        - {x: 17, y: -6}
+        - {x: 15, y: -3}
+        - {x: 15, y: 1}
+        - {x: 14, y: 2}
+        - {x: 20, y: 6}
+        - {x: 25, y: 7}
+        - {x: 29, y: 10}
+        - {x: 29, y: 18}
+        - {x: 28, y: 21}
+        - {x: 22, y: 27}
+        - {x: 15, y: 30}
+        - {x: 13, y: 30}
+        - {x: 10, y: 32}
+        - {x: -11, y: 32}
+        - {x: -16, y: 30}
+        - {x: -29, y: 16}
+        - {x: -29, y: 9}
+        - {x: -28, y: 7}
+        - {x: -23, y: 5}
+        - {x: -21, y: 5}
+        - {x: -20, y: 4}
+        - {x: -13, y: 3}
+        - {x: -11, y: 2}
+        - {x: -12, y: 1}
+        - {x: -12, y: -10}
+        - {x: -13, y: -11}
+        - {x: -13, y: -16}
+        - {x: -14, y: -16}
+        - {x: -18, y: -20}
+        - {x: -18, y: -21}
+        - {x: -16, y: -24}
+        - {x: -18, y: -24}
+        - {x: -22, y: -29}
+        - {x: -22, y: -30}
+        - {x: -20, y: -32}
+        - {x: 22, y: -32}
+        - {x: 23, y: -29}
+        - {x: 19, y: -25}
+        - {x: 19, y: -24}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 6f9aa77702792024b93e917d4e56760f
+      internalID: -8492835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 58
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 17, y: -22.5}
+        - {x: 17, y: -15.5}
+        - {x: 16, y: -14.5}
+        - {x: 17, y: -13.5}
+        - {x: 17, y: -11.5}
+        - {x: 16, y: -10.5}
+        - {x: 17, y: -9.5}
+        - {x: 17, y: -5.5}
+        - {x: 15, y: -2.5}
+        - {x: 15, y: 1.5}
+        - {x: 14, y: 2.5}
+        - {x: 20, y: 6.5}
+        - {x: 25, y: 7.5}
+        - {x: 29, y: 10.5}
+        - {x: 29, y: 18.5}
+        - {x: 28, y: 21.5}
+        - {x: 22, y: 27.5}
+        - {x: 15, y: 30.5}
+        - {x: 13, y: 30.5}
+        - {x: 10, y: 32.5}
+        - {x: -11, y: 32.5}
+        - {x: -16, y: 30.5}
+        - {x: -29, y: 16.5}
+        - {x: -29, y: 9.5}
+        - {x: -28, y: 7.5}
+        - {x: -23, y: 5.5}
+        - {x: -21, y: 5.5}
+        - {x: -20, y: 4.5}
+        - {x: -13, y: 3.5}
+        - {x: -11, y: 2.5}
+        - {x: -12, y: 1.5}
+        - {x: -12, y: -9.5}
+        - {x: -13, y: -10.5}
+        - {x: -13, y: -16.5}
+        - {x: -14, y: -16.5}
+        - {x: -18, y: -20.5}
+        - {x: -18, y: -21.5}
+        - {x: -16, y: -24.5}
+        - {x: -18, y: -24.5}
+        - {x: -22, y: -29.5}
+        - {x: -22, y: -30.5}
+        - {x: -20, y: -32.5}
+        - {x: 22, y: -32.5}
+        - {x: 23, y: -29.5}
+        - {x: 19, y: -25.5}
+        - {x: 19, y: -24.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: ff9c1c6e4d4c9c1478c911aef615e525
+      internalID: -2024754397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 58
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 17, y: -22}
+        - {x: 17, y: -16}
+        - {x: 16, y: -15}
+        - {x: 17, y: -14}
+        - {x: 17, y: -12}
+        - {x: 16, y: -11}
+        - {x: 17, y: -10}
+        - {x: 17, y: -6}
+        - {x: 15, y: -3}
+        - {x: 15, y: 1}
+        - {x: 14, y: 2}
+        - {x: 20, y: 6}
+        - {x: 25, y: 7}
+        - {x: 29, y: 10}
+        - {x: 29, y: 18}
+        - {x: 28, y: 21}
+        - {x: 22, y: 27}
+        - {x: 15, y: 30}
+        - {x: 13, y: 30}
+        - {x: 10, y: 32}
+        - {x: -11, y: 32}
+        - {x: -16, y: 30}
+        - {x: -29, y: 16}
+        - {x: -29, y: 9}
+        - {x: -28, y: 7}
+        - {x: -23, y: 5}
+        - {x: -21, y: 5}
+        - {x: -20, y: 4}
+        - {x: -13, y: 3}
+        - {x: -11, y: 2}
+        - {x: -12, y: 1}
+        - {x: -12, y: -10}
+        - {x: -13, y: -11}
+        - {x: -13, y: -16}
+        - {x: -14, y: -16}
+        - {x: -18, y: -20}
+        - {x: -18, y: -21}
+        - {x: -16, y: -24}
+        - {x: -18, y: -24}
+        - {x: -22, y: -29}
+        - {x: -22, y: -30}
+        - {x: -20, y: -32}
+        - {x: 22, y: -32}
+        - {x: 23, y: -29}
+        - {x: 19, y: -25}
+        - {x: 19, y: -24}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 20d091add0c48194bb28c163e21f8516
+      internalID: 838259966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 58
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 17, y: -21}
+        - {x: 17, y: -16}
+        - {x: 16, y: -15}
+        - {x: 17, y: -14}
+        - {x: 17, y: -12}
+        - {x: 16, y: -11}
+        - {x: 17, y: -10}
+        - {x: 17, y: -6}
+        - {x: 15, y: -3}
+        - {x: 15, y: 0}
+        - {x: 14, y: 1}
+        - {x: 20, y: 5}
+        - {x: 25, y: 6}
+        - {x: 29, y: 9}
+        - {x: 29, y: 17}
+        - {x: 28, y: 20}
+        - {x: 22, y: 26}
+        - {x: 15, y: 29}
+        - {x: 13, y: 29}
+        - {x: 10, y: 31}
+        - {x: -11, y: 31}
+        - {x: -16, y: 29}
+        - {x: -29, y: 15}
+        - {x: -29, y: 8}
+        - {x: -28, y: 6}
+        - {x: -23, y: 4}
+        - {x: -21, y: 4}
+        - {x: -20, y: 3}
+        - {x: -13, y: 2}
+        - {x: -11, y: 1}
+        - {x: -12, y: 0}
+        - {x: -12, y: -10}
+        - {x: -13, y: -11}
+        - {x: -13, y: -15}
+        - {x: -14, y: -15}
+        - {x: -18, y: -19}
+        - {x: -18, y: -20}
+        - {x: -16, y: -23}
+        - {x: -18, y: -23}
+        - {x: -22, y: -28}
+        - {x: -22, y: -29}
+        - {x: -20, y: -31}
+        - {x: 22, y: -31}
+        - {x: 23, y: -28}
+        - {x: 19, y: -24}
+        - {x: 19, y: -23}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 0445316b045444e4486d4f014d3cee68
+      internalID: 1104956256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 0
+        width: 58
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 17, y: -15.5}
+        - {x: 17, y: -6.5}
+        - {x: 15, y: -3.5}
+        - {x: 15, y: 0.5}
+        - {x: 17, y: 1.5}
+        - {x: 20, y: 3.5}
+        - {x: 25, y: 4.5}
+        - {x: 29, y: 7.5}
+        - {x: 29, y: 15.5}
+        - {x: 28, y: 18.5}
+        - {x: 22, y: 24.5}
+        - {x: 15, y: 27.5}
+        - {x: 13, y: 27.5}
+        - {x: 10, y: 29.5}
+        - {x: -11, y: 29.5}
+        - {x: -16, y: 27.5}
+        - {x: -29, y: 13.5}
+        - {x: -29, y: 6.5}
+        - {x: -28, y: 4.5}
+        - {x: -23, y: 2.5}
+        - {x: -21, y: 2.5}
+        - {x: -20, y: 1.5}
+        - {x: -13, y: 0.5}
+        - {x: -12, y: -0.5}
+        - {x: -12, y: -5.5}
+        - {x: -13, y: -6.5}
+        - {x: -14, y: -15.5}
+        - {x: -18, y: -19.5}
+        - {x: -18, y: -20.5}
+        - {x: -17, y: -21.5}
+        - {x: -22, y: -26.5}
+        - {x: -22, y: -27.5}
+        - {x: -20, y: -29.5}
+        - {x: 22, y: -29.5}
+        - {x: 23, y: -26.5}
+        - {x: 19, y: -22.5}
+        - {x: 19, y: -18.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 8aac906413cc39349bc1f6cadf6ea35e
+      internalID: -977044399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 58
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 17, y: -16}
+        - {x: 17, y: -7}
+        - {x: 15, y: -4}
+        - {x: 15, y: 0}
+        - {x: 17, y: 1}
+        - {x: 20, y: 3}
+        - {x: 25, y: 4}
+        - {x: 29, y: 7}
+        - {x: 29, y: 15}
+        - {x: 28, y: 18}
+        - {x: 22, y: 24}
+        - {x: 15, y: 27}
+        - {x: 13, y: 27}
+        - {x: 10, y: 29}
+        - {x: -11, y: 29}
+        - {x: -16, y: 27}
+        - {x: -29, y: 13}
+        - {x: -29, y: 6}
+        - {x: -28, y: 4}
+        - {x: -23, y: 2}
+        - {x: -21, y: 2}
+        - {x: -20, y: 1}
+        - {x: -13, y: 0}
+        - {x: -12, y: -1}
+        - {x: -12, y: -6}
+        - {x: -15, y: -12}
+        - {x: -15, y: -16}
+        - {x: -19, y: -20}
+        - {x: -19, y: -21}
+        - {x: -18, y: -22}
+        - {x: -22, y: -26}
+        - {x: -22, y: -27}
+        - {x: -20, y: -29}
+        - {x: 22, y: -29}
+        - {x: 23, y: -26}
+        - {x: 19, y: -22}
+        - {x: 19, y: -19}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 4de40cf7c510651438dfd737ee018c2a
+      internalID: 1068036753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 0
+        width: 58
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 16, y: -12.5}
+        - {x: 17, y: -11.5}
+        - {x: 17, y: -7.5}
+        - {x: 15, y: -4.5}
+        - {x: 15, y: -0.5}
+        - {x: 17, y: 0.5}
+        - {x: 20, y: 2.5}
+        - {x: 25, y: 3.5}
+        - {x: 29, y: 6.5}
+        - {x: 29, y: 14.5}
+        - {x: 28, y: 17.5}
+        - {x: 22, y: 23.5}
+        - {x: 15, y: 26.5}
+        - {x: 13, y: 26.5}
+        - {x: 10, y: 28.5}
+        - {x: -11, y: 28.5}
+        - {x: -16, y: 26.5}
+        - {x: -29, y: 12.5}
+        - {x: -29, y: 5.5}
+        - {x: -28, y: 3.5}
+        - {x: -23, y: 1.5}
+        - {x: -20, y: 0.5}
+        - {x: -13, y: -0.5}
+        - {x: -12, y: -1.5}
+        - {x: -12, y: -6.5}
+        - {x: -15, y: -12.5}
+        - {x: -15, y: -15.5}
+        - {x: -19, y: -19.5}
+        - {x: -19, y: -20.5}
+        - {x: -18, y: -21.5}
+        - {x: -22, y: -25.5}
+        - {x: -22, y: -26.5}
+        - {x: -20, y: -28.5}
+        - {x: 22, y: -28.5}
+        - {x: 23, y: -25.5}
+        - {x: 19, y: -21.5}
+        - {x: 19, y: -18.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 8fb8aa42d19135a4fa85fd330e986812
+      internalID: 26156278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 0
+        width: 58
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 16, y: -13}
+        - {x: 17, y: -12}
+        - {x: 17, y: -8}
+        - {x: 15, y: -5}
+        - {x: 15, y: -1}
+        - {x: 17, y: 0}
+        - {x: 20, y: 2}
+        - {x: 25, y: 3}
+        - {x: 29, y: 6}
+        - {x: 29, y: 14}
+        - {x: 28, y: 17}
+        - {x: 22, y: 23}
+        - {x: 15, y: 26}
+        - {x: 13, y: 26}
+        - {x: 10, y: 28}
+        - {x: -11, y: 28}
+        - {x: -16, y: 26}
+        - {x: -29, y: 12}
+        - {x: -29, y: 5}
+        - {x: -28, y: 3}
+        - {x: -23, y: 1}
+        - {x: -20, y: 0}
+        - {x: -13, y: -1}
+        - {x: -12, y: -2}
+        - {x: -12, y: -7}
+        - {x: -13, y: -8}
+        - {x: -13, y: -10}
+        - {x: -15, y: -13}
+        - {x: -15, y: -15}
+        - {x: -19, y: -19}
+        - {x: -19, y: -20}
+        - {x: -18, y: -21}
+        - {x: -22, y: -25}
+        - {x: -22, y: -26}
+        - {x: -20, y: -28}
+        - {x: 22, y: -28}
+        - {x: 23, y: -25}
+        - {x: 19, y: -21}
+        - {x: 19, y: -18}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 174405570328de64fb990c2300a8bfbe
+      internalID: -2115573090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giant Mushroom Sprite Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 0
+        width: 58
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 16, y: -13.5}
+        - {x: 17, y: -12.5}
+        - {x: 17, y: -8.5}
+        - {x: 15, y: -5.5}
+        - {x: 15, y: -1.5}
+        - {x: 17, y: -0.5}
+        - {x: 20, y: 1.5}
+        - {x: 25, y: 2.5}
+        - {x: 29, y: 5.5}
+        - {x: 29, y: 13.5}
+        - {x: 28, y: 16.5}
+        - {x: 22, y: 22.5}
+        - {x: 15, y: 25.5}
+        - {x: 13, y: 25.5}
+        - {x: 10, y: 27.5}
+        - {x: -11, y: 27.5}
+        - {x: -16, y: 25.5}
+        - {x: -29, y: 11.5}
+        - {x: -29, y: 4.5}
+        - {x: -28, y: 2.5}
+        - {x: -23, y: 0.5}
+        - {x: -20, y: -0.5}
+        - {x: -13, y: -1.5}
+        - {x: -12, y: -2.5}
+        - {x: -12, y: -7.5}
+        - {x: -13, y: -8.5}
+        - {x: -13, y: -10.5}
+        - {x: -15, y: -13.5}
+        - {x: -19, y: -18.5}
+        - {x: -19, y: -19.5}
+        - {x: -18, y: -20.5}
+        - {x: -22, y: -24.5}
+        - {x: -22, y: -25.5}
+        - {x: -20, y: -27.5}
+        - {x: 22, y: -27.5}
+        - {x: 23, y: -24.5}
+        - {x: 19, y: -20.5}
+        - {x: 19, y: -18.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 6bbac3fea9e3d0c449286b8da9ef7e62
+      internalID: -1332754854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Giant Mushroom Sprite Sheet_0: -3987478
+      Giant Mushroom Sprite Sheet_1: 1659144464
+      Giant Mushroom Sprite Sheet_10: 965097218
+      Giant Mushroom Sprite Sheet_11: 32549982
+      Giant Mushroom Sprite Sheet_12: -685956225
+      Giant Mushroom Sprite Sheet_13: -257162066
+      Giant Mushroom Sprite Sheet_14: -2061273294
+      Giant Mushroom Sprite Sheet_15: 743397330
+      Giant Mushroom Sprite Sheet_16: -1092331484
+      Giant Mushroom Sprite Sheet_17: 1387744171
+      Giant Mushroom Sprite Sheet_18: -662719004
+      Giant Mushroom Sprite Sheet_19: 667802318
+      Giant Mushroom Sprite Sheet_2: -85916968
+      Giant Mushroom Sprite Sheet_20: -612914036
+      Giant Mushroom Sprite Sheet_21: 1879262853
+      Giant Mushroom Sprite Sheet_22: -948638121
+      Giant Mushroom Sprite Sheet_23: -897749267
+      Giant Mushroom Sprite Sheet_24: 1230233332
+      Giant Mushroom Sprite Sheet_25: -364815377
+      Giant Mushroom Sprite Sheet_26: 705597735
+      Giant Mushroom Sprite Sheet_27: 1809903220
+      Giant Mushroom Sprite Sheet_28: 458393546
+      Giant Mushroom Sprite Sheet_29: 1560672232
+      Giant Mushroom Sprite Sheet_3: 174160720
+      Giant Mushroom Sprite Sheet_30: -1393054751
+      Giant Mushroom Sprite Sheet_31: -250026050
+      Giant Mushroom Sprite Sheet_32: -1743034175
+      Giant Mushroom Sprite Sheet_33: 1511351345
+      Giant Mushroom Sprite Sheet_34: 1309946787
+      Giant Mushroom Sprite Sheet_35: -1553766692
+      Giant Mushroom Sprite Sheet_36: 1611321826
+      Giant Mushroom Sprite Sheet_37: -8492835
+      Giant Mushroom Sprite Sheet_38: -2024754397
+      Giant Mushroom Sprite Sheet_39: 838259966
+      Giant Mushroom Sprite Sheet_4: 1231669444
+      Giant Mushroom Sprite Sheet_40: 1104956256
+      Giant Mushroom Sprite Sheet_41: -977044399
+      Giant Mushroom Sprite Sheet_42: 1068036753
+      Giant Mushroom Sprite Sheet_43: 26156278
+      Giant Mushroom Sprite Sheet_44: -2115573090
+      Giant Mushroom Sprite Sheet_45: -1332754854
+      Giant Mushroom Sprite Sheet_5: 1530666128
+      Giant Mushroom Sprite Sheet_6: 697708723
+      Giant Mushroom Sprite Sheet_7: 1844372002
+      Giant Mushroom Sprite Sheet_8: 189945368
+      Giant Mushroom Sprite Sheet_9: -1282082765
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
