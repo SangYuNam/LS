@@ -15,7 +15,7 @@ public class Title : MonoBehaviour
 
     public void ClickSetting()
     {
-        Debug.Log("로드");
+        Debug.Log("옵션");
     }
 
     public void ClickExit()
