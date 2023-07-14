@@ -1,13 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.Events;
+using System;
 
 public class Orc : RepProperty
 {
     float AttackCoolTime = 2.0f;
 
     public GameObject MonsterPlace;
-    public GameObject Canvas;
+    public GameObject ShowTextObj;
+    public TextMeshProUGUI _ShowTxt;
+    public UnityEvent DeathAlarm = null;
 
     Coroutine coMoving = null;
     public Coroutine coAttacking = null;
@@ -24,15 +30,19 @@ public class Orc : RepProperty
         switch (myState)
         {
             case State.Normal:
+                StopAllCoroutines();
                 coMoving = StartCoroutine(OrcMoving());
                 break;
             case State.Battle:
                 StopCoroutine(coMoving);
                 GameManager.Instance.isBattle = true;
-                StartCoroutine(UIShow());
+                StartCoroutine(TextShowing("오크가 등장했다!"));
                 coAttacking = StartCoroutine(OrcAttacking());
                 break;
             case State.Dead:
+                StopAllCoroutines();
+                GameManager.Instance.isBattle = false;
+                StartCoroutine(Deading());
                 break;
             default:
                 Debug.Log("입력받은 파라매터 값이 선언하지 않은 상태입니다");
@@ -59,6 +69,12 @@ public class Orc : RepProperty
                 break;
         }
     }
+
+    public void StageMoveEndAlarm()
+    {
+        ChangeState(State.Normal);
+    }
+
     private void Start()
     {
         GameManager.Instance.Monster = this.gameObject;
@@ -67,6 +83,10 @@ public class Orc : RepProperty
     void Update()
     {
         StateProcess();
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+                ChangeState(State.Dead);
+        }
     }
 
     IEnumerator OrcMoving()
@@ -81,7 +101,6 @@ public class Orc : RepProperty
             }
             else
             {
-                GameManager.Instance.isStageMove = false;
                 myAnim.SetBool("isMoving", false);
             }
             yield return null;
@@ -95,10 +114,19 @@ public class Orc : RepProperty
             myAnim.SetTrigger("isAttack");
         }
     }
-    IEnumerator UIShow()
+    IEnumerator TextShowing(string txt)
     {
-        if(!Canvas.activeSelf) Canvas.SetActive(true);
+        _ShowTxt.text = txt;
+        if(!ShowTextObj.activeSelf) ShowTextObj.SetActive(true);
         yield return new WaitForSeconds(2.0f);
-        if (Canvas.activeSelf) Canvas.SetActive(false);
+        if (ShowTextObj.activeSelf) ShowTextObj.SetActive(false);
+    }
+    IEnumerator Deading()
+    {
+        myAnim.SetTrigger("isDead");
+        StartCoroutine(TextShowing("오크를 해치웠다!"));
+        yield return new WaitForSeconds(2.0f);
+        DeathAlarm?.Invoke();
+        this.gameObject.SetActive(false);
     }
 }
