@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : RepProperty
+public class Player : RepProperty, GameManager.IBattle
 {
     float AttackCoolTime = 2.0f;
 
@@ -72,6 +72,16 @@ public class Player : RepProperty
             yield return new WaitForSeconds(AttackCoolTime);
 
             myAnim.SetTrigger("isAttack");
+            GameManager.Instance.Monster.GetComponent<GameManager.IBattle>().OnTakeDamage(20.0f);
         }
+    }
+    public bool isLive
+    {
+        get => myState != State.Dead;
+    }
+
+    public void OnTakeDamage(float dmg)
+    {
+
     }
 }

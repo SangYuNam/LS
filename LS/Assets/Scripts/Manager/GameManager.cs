@@ -16,10 +16,10 @@ public class GameManager : Singleton<GameManager>
     public UnityEvent MonsterChangeState = null;
 
     public int Stage = 1;
-    public int PlayerHP;
-    public int curPlayerHP;
-    public int MonsterHP;
-    public int curMonsterHP;
+    public float PlayerHP = 100f;
+    public float curPlayerHP = 100f;
+    public float MonsterHP = 100f;
+    public float curMonsterHP = 100f;
 
     private void Update()
     {
@@ -34,5 +34,11 @@ public class GameManager : Singleton<GameManager>
             Monster.SetActive(true);
             MonsterChangeState?.Invoke();
         }
+    }
+
+    public interface IBattle
+    {
+        void OnTakeDamage(float dmg);
+        bool isLive { get; }
     }
 }
