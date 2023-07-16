@@ -660,7 +660,7 @@ RectTransform:
   m_Children:
   - {fileID: 1501963602}
   m_Father: {fileID: 1917496456}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -4892,7 +4892,7 @@ RectTransform:
   - {fileID: 1659334666}
   - {fileID: 1353765020}
   m_Father: {fileID: 1917496456}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -5278,7 +5278,7 @@ RectTransform:
   - {fileID: 1925826595}
   - {fileID: 1506479613}
   m_Father: {fileID: 1917496456}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -5736,7 +5736,7 @@ RectTransform:
   m_Children:
   - {fileID: 805760361}
   m_Father: {fileID: 1917496456}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -6255,10 +6255,10 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1764816493}
   - {fileID: 1449972389}
   - {fileID: 900813277}
   - {fileID: 384275968}
-  - {fileID: 1764816493}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6927,10 +6927,10 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   Stage: 1
-  PlayerHP: 0
-  curPlayerHP: 0
-  MonsterHP: 0
-  curMonsterHP: 0
+  PlayerHP: 100
+  curPlayerHP: 100
+  MonsterHP: 100
+  curMonsterHP: 100
 --- !u!4 &2105486318
 Transform:
   m_ObjectHideFlags: 0
@@ -7017,5 +7017,17 @@ PrefabInstance:
       propertyPath: DeathAlarm.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1917496457}
+    - target: {fileID: 850231420600356710, guid: 0a5274f150352b04487fe57621151339, type: 3}
+      propertyPath: m_Color.b
+      value: 0.9577252
+      objectReference: {fileID: 0}
+    - target: {fileID: 850231420600356710, guid: 0a5274f150352b04487fe57621151339, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9577252
+      objectReference: {fileID: 0}
+    - target: {fileID: 850231420600356710, guid: 0a5274f150352b04487fe57621151339, type: 3}
+      propertyPath: m_Color.r
+      value: 0.9622642
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a5274f150352b04487fe57621151339, type: 3}
