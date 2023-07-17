@@ -9,7 +9,7 @@ using Unity.VisualScripting;
 
 public class Orc : RepProperty, GameManager.IBattle
 {
-    float AttackCoolTime = 2.0f;
+    float AttackCoolTime = 3.0f;
 
     public GameObject MonsterPlace;
     public GameObject ShowTextObj;
@@ -150,6 +150,7 @@ public class Orc : RepProperty, GameManager.IBattle
             ChangeState(State.Dead);
         }
     }
+
 
     /*public void OnTakeDamage(float dmg)
     {
