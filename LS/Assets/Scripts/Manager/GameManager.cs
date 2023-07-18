@@ -33,6 +33,7 @@ public class GameManager : Singleton<GameManager>
             Monster.transform.position = CreatePos.transform.position;
             Monster.SetActive(true);
             MonsterChangeState?.Invoke();
+            curMonsterHP = MonsterHP;
         }
     }
 

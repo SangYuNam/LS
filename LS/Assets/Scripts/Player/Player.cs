@@ -71,8 +71,7 @@ public class Player : RepProperty, GameManager.IBattle
         {
             yield return new WaitForSeconds(AttackCoolTime);
 
-            myAnim.SetTrigger("isAttack");
-            GameManager.Instance.Monster.GetComponent<GameManager.IBattle>().OnTakeDamage(20.0f);
+            myAnim.SetTrigger("isAttack");            
         }
     }
     public bool isLive
@@ -84,4 +83,5 @@ public class Player : RepProperty, GameManager.IBattle
     {
 
     }
+
 }
