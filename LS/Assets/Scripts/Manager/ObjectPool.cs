@@ -14,7 +14,31 @@ public class ObjectPool : Singleton<ObjectPool>
 
         for (int i = 0; i < Pools.Length; i++)
         {
-
+            Pools[i] = new List<GameObject>();
         }
+        Debug.Log(Pools.Length);
+    }
+
+    public GameObject GetObject(int Index)
+    {
+        GameObject Select = null;
+
+        foreach(GameObject item in Pools[Index])
+        {
+            if(!item.activeSelf)
+            {
+                Select = item;
+                Select.SetActive(true);
+                break;
+            }
+        }
+
+        if(!Select)
+        {
+            Select = Instantiate(Objects[Index], transform);
+            Pools[Index].Add(Select);
+        }
+
+        return Select;
     }
 }

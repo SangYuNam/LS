@@ -5,15 +5,6 @@ using UnityEngine;
 public class Mucus : RepProperty
 {
     [SerializeField] GameObject Monster = null;
-    void Start()
-    {
-        
-    }
-
-    private void Awake()
-    {
-        Monster = GameObject.Find("Orc");
-    }
 
     void Update()
     {
@@ -27,16 +18,23 @@ public class Mucus : RepProperty
         }
 
         if (!GameManager.Instance.isStageMove)
-            Destroy(gameObject);
+            /*Destroy(gameObject);*/
+            gameObject.SetActive(false);
     }
 
-    public void OnDestroy()
+    public void Oncontact()
     {
-        Destroy(gameObject);
+        gameObject.SetActive(false);
     }
 
     public void HitDamage()
     {
         GameManager.Instance.Monster.GetComponent<GameManager.IBattle>().OnTakeDamage(20.0f);
+    }
+
+    private void OnEnable()
+    {
+        Monster = GameManager.Instance.Monster;
+        transform.position = GameManager.Instance.Player.transform.position + new Vector3(0.5f, 0.5f, 0f);
     }
 }

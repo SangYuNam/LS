@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player : RepProperty, GameManager.IBattle
 {
-    float AttackCoolTime = 2.0f;
+    float AttackCoolTime = 0.5f;
 
     Coroutine AttackCo = null;
     [SerializeField] enum State
@@ -54,10 +54,13 @@ public class Player : RepProperty, GameManager.IBattle
                 break;
         }
     }
+    private void Awake()
+    {
+        GameManager.Instance.Player = this.gameObject;
+    }
     void Start()
     {
-        ChangeState(State.Normal);
-        GameManager.Instance.Player = this.gameObject;
+        ChangeState(State.Normal);        
     }
 
     void Update()
