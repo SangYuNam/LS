@@ -84,10 +84,6 @@ public class Orc : RepProperty, GameManager.IBattle
     void Update()
     {
         StateProcess();
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-                ChangeState(State.Dead);
-        }
     }
 
     IEnumerator OrcMoving()
@@ -150,31 +146,4 @@ public class Orc : RepProperty, GameManager.IBattle
             ChangeState(State.Dead);
         }
     }
-
-
-    /*public void OnTakeDamage(float dmg)
-    {
-        GameObject obj = Instantiate(Resources.Load("UI/DmgText"), TextArea) as GameObject;
-        obj.GetComponent<DamageText>().ChangeTextColor(dmg);
-        curHp -= dmg;
-        if (dmg < 0)
-        {
-            myAnim.SetTrigger("OnHealColor");
-            return;
-        }
-        myAnim.SetTrigger("OnDamageColor"); // 피격시 이미지의 색상을 바꿔주도록 Animator에서 설정
-
-        if (!Mathf.Approximately(curHp, 0f))
-        {
-            if (!myAnim.GetBool("isAttacking"))
-                myAnim.SetTrigger("OnDamage");  // 공격중엔 애니메이션 호출 안 함
-        }
-        else
-        {
-            Collider2D[] colList = transform.GetComponentsInChildren<Collider2D>();
-            foreach (Collider2D col in colList) col.enabled = false;
-            StopAllCoroutines();
-            StartCoroutine(Death());
-        }
-    }*/
 }

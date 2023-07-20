@@ -16,7 +16,6 @@ public class ObjectPool : Singleton<ObjectPool>
         {
             Pools[i] = new List<GameObject>();
         }
-        Debug.Log(Pools.Length);
     }
 
     public GameObject GetObject(int Index)

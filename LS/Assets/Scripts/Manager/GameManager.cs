@@ -6,6 +6,11 @@ using UnityEngine.Events;
 
 public class GameManager : Singleton<GameManager>
 {
+    private void Start()
+    {
+        Application.targetFrameRate = 30;
+    }
+
     public bool isBattle = false;
     public bool isStageMove = false;
 
@@ -16,6 +21,7 @@ public class GameManager : Singleton<GameManager>
     public UnityEvent MonsterChangeState = null;
 
     public int Stage = 1;
+    public int Gold = 0;
     public float PlayerHP = 100f;
     public float curPlayerHP = 100f;
     public float MonsterHP = 100f;
@@ -23,18 +29,18 @@ public class GameManager : Singleton<GameManager>
 
     private void Update()
     {
-        resetMonster();
+        if(!Monster.activeSelf)
+        {
+            resetMonster();
+        }
     }
 
     void resetMonster()
     {
-        if (!Monster.activeSelf)
-        {
-            Monster.transform.position = CreatePos.transform.position;
-            Monster.SetActive(true);
-            MonsterChangeState?.Invoke();
-            curMonsterHP = MonsterHP;
-        }
+        Monster.transform.position = CreatePos.transform.position;
+        Monster.SetActive(true);
+        MonsterChangeState?.Invoke();
+        curMonsterHP = MonsterHP;
     }
 
     public interface IBattle

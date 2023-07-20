@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player : RepProperty, GameManager.IBattle
 {
-    float AttackCoolTime = 0.5f;
+    float AttackCoolTime = 1.0f;
 
     Coroutine AttackCo = null;
     [SerializeField] enum State

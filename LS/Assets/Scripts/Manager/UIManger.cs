@@ -8,7 +8,7 @@ public class UIManger : MonoBehaviour
 {
     public GameObject InfoWindow = null;
     public GameObject StrengthWindow = null;
-    public GameObject ShopWindow = null;
+    public GameObject DengeonWindow = null;
     public GameObject SettingWindow = null;
     public TextMeshProUGUI _Stage;
 
@@ -16,13 +16,27 @@ public class UIManger : MonoBehaviour
     float curTime = 0f;
     float FadeTime = 1f;
 
-    public void ShowWindow(GameObject window)
+    public void WindowControl(GameObject window)
     {
-        if (!window.activeSelf) window.SetActive(true);
-    }
-    public void OffWindow(GameObject window)
-    {
-        if (window.activeSelf) window.SetActive(false);
+        if(InfoWindow.activeSelf)
+        {
+            InfoWindow.SetActive(false);
+        }
+        else if(StrengthWindow.activeSelf)
+        {
+            StrengthWindow.SetActive(false);
+        }
+        else if(DengeonWindow.activeSelf)
+        {
+            DengeonWindow.SetActive(false);
+        }
+        window.SetActive(true);
+        /*if (!window.activeSelf)
+        {
+            window.SetActive(true);
+
+        }
+        else if (window.activeSelf) window.SetActive(false);*/
     }
 
 
