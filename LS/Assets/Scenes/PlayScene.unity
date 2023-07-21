@@ -10806,7 +10806,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1997510416}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.6840496, y: -0.9158075, z: 3.0185175}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10827,6 +10827,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Objects:
   - {fileID: 8145704303945910064, guid: fde94b12b5fd0104d8c2f6d663a78de3, type: 3}
+  - {fileID: 7335256338146659144, guid: f932544efbf79964fbf383a786b02a96, type: 3}
 --- !u!1 &2003330360
 GameObject:
   m_ObjectHideFlags: 0
@@ -11378,6 +11379,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   Stage: 1
+  Gold: 0
   PlayerHP: 100
   curPlayerHP: 100
   MonsterHP: 100
@@ -11482,3 +11484,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a5274f150352b04487fe57621151339, type: 3}
+--- !u!1 &850231418826921228 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 850231420600356705, guid: 0a5274f150352b04487fe57621151339, type: 3}
+  m_PrefabInstance: {fileID: 850231418826921227}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &850231418826921229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850231418826921228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 042121f44f3fc2d499da1daab1831b4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

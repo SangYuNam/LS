@@ -25,6 +25,7 @@ public class Player : RepProperty, GameManager.IBattle
                 AttackCo = StartCoroutine(Attacking());
                 break;
             case State.Dead:
+                StartCoroutine(Deading());
                 break;
             default:
                 Debug.Log("입력받은 파라매터 값이 선언하지 않은 상태입니다");
@@ -84,7 +85,24 @@ public class Player : RepProperty, GameManager.IBattle
 
     public void OnTakeDamage(float dmg)
     {
+        GameManager.Instance.curPlayerHP -= dmg;
+        myAnim.SetTrigger("isDamage");
 
+        if (!Mathf.Approximately(GameManager.Instance.curPlayerHP, 0f))
+        {
+            myAnim.SetTrigger("isDamage");
+        }
+        else
+        {
+            ChangeState(State.Dead);
+        }
+    }
+
+    IEnumerator Deading()
+    {
+        myAnim.SetTrigger("isDead");
+        yield return new WaitForSeconds(2.0f);
+        this.gameObject.SetActive(false);
     }
 
 }

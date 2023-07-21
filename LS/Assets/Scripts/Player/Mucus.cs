@@ -18,7 +18,6 @@ public class Mucus : RepProperty
         }
 
         if (!GameManager.Instance.isStageMove)
-            /*Destroy(gameObject);*/
             gameObject.SetActive(false);
     }
 
