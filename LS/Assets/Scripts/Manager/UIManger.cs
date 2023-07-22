@@ -31,12 +31,6 @@ public class UIManger : MonoBehaviour
             DengeonWindow.SetActive(false);
         }
         window.SetActive(true);
-        /*if (!window.activeSelf)
-        {
-            window.SetActive(true);
-
-        }
-        else if (window.activeSelf) window.SetActive(false);*/
     }
 
 
@@ -61,7 +55,6 @@ public class UIManger : MonoBehaviour
         curTime = 0f;
 
         GameManager.Instance.isStageMove = false; // 화면이 어두워 졌을때 배경이 처음 자리로 돌아가게끔
-        GameManager.Instance.Stage += 1; // 스테이지 증가
         _Stage.text = $"STAGE : {GameManager.Instance.Stage}";
 
         yield return new WaitForSeconds(1f);

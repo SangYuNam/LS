@@ -24,7 +24,7 @@ public class Axe : RepProperty
 
     public void HitDamage()
     {
-        GameManager.Instance.Player.GetComponent<GameManager.IBattle>().OnTakeDamage(20.0f);
+        GameManager.Instance.Player.GetComponent<GameManager.IBattle>().OnTakeDamage(GameManager.Instance.MonsterATK);
     }
 
     private void OnEnable()

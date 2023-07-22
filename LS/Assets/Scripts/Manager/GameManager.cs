@@ -11,6 +11,7 @@ public class GameManager : Singleton<GameManager>
         Application.targetFrameRate = 30;
     }
 
+    public bool isStageLose = false;
     public bool isBattle = false;
     public bool isStageMove = false;
 
@@ -22,10 +23,17 @@ public class GameManager : Singleton<GameManager>
 
     public int Stage = 1;
     public int Gold = 0;
-    public float PlayerHP = 100f;
+
+    public float PlayerATK = 20.0f;
+    public float PlayerDEF = 0f;
+    public float PlayerATKSpeed = 1f;
+    public float PlayerMaxHP = 100f;
     public float curPlayerHP = 100f;
-    public float MonsterHP = 100f;
+
+    public float MonsterATK = 20.0f;
+    public float MonsterMaxHP = 100f;
     public float curMonsterHP = 100f;
+
 
     private void Update()
     {
@@ -40,12 +48,27 @@ public class GameManager : Singleton<GameManager>
         Monster.transform.position = CreatePos.transform.position;
         Monster.SetActive(true);
         MonsterChangeState?.Invoke();
-        curMonsterHP = MonsterHP;
+        StageControl();
+        curMonsterHP = MonsterMaxHP;
     }
 
     public interface IBattle
     {
         void OnTakeDamage(float dmg);
         bool isLive { get; }
+    }
+
+    public void StageControl()
+    {
+        if(!isStageLose)
+        {
+            Stage += 1;
+            MonsterATK += MonsterATK * 0.5f;
+            MonsterMaxHP += MonsterMaxHP * 0.25f;
+        }
+        else
+        {
+            isStageLose = false;
+        }
     }
 }

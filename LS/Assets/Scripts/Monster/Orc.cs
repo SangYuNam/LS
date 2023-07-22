@@ -137,7 +137,7 @@ public class Orc : RepProperty, GameManager.IBattle
         GameManager.Instance.curMonsterHP -= dmg;
         myAnim.SetTrigger("isDamage");       
 
-        if(!Mathf.Approximately(GameManager.Instance.curMonsterHP, 0f))
+        if(/*!Mathf.Approximately(GameManager.Instance.curMonsterHP, 0f) ||*/ GameManager.Instance.curMonsterHP > 0.0f)
         {
             myAnim.SetTrigger("isDamage");
         }
@@ -145,5 +145,10 @@ public class Orc : RepProperty, GameManager.IBattle
         {
             ChangeState(State.Dead);
         }
+    }
+
+    public void Win()
+    {
+        StopAllCoroutines();
     }
 }

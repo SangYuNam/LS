@@ -1,12 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Player : RepProperty, GameManager.IBattle
 {
     float AttackCoolTime = 1.0f;
 
     Coroutine AttackCo = null;
+
+    public UnityEvent DeadAraml = null;
+    public GameObject LoseText = null;
+
     [SerializeField] enum State
     {
         Creat = 0, Normal, Battle, Dead
@@ -25,6 +30,7 @@ public class Player : RepProperty, GameManager.IBattle
                 AttackCo = StartCoroutine(Attacking());
                 break;
             case State.Dead:
+                StopAllCoroutines();
                 StartCoroutine(Deading());
                 break;
             default:
@@ -88,7 +94,7 @@ public class Player : RepProperty, GameManager.IBattle
         GameManager.Instance.curPlayerHP -= dmg;
         myAnim.SetTrigger("isDamage");
 
-        if (!Mathf.Approximately(GameManager.Instance.curPlayerHP, 0f))
+        if (/*!Mathf.Approximately(GameManager.Instance.curPlayerHP, 0f)*/ GameManager.Instance.curPlayerHP > 0.0f)
         {
             myAnim.SetTrigger("isDamage");
         }
@@ -101,8 +107,10 @@ public class Player : RepProperty, GameManager.IBattle
     IEnumerator Deading()
     {
         myAnim.SetTrigger("isDead");
-        yield return new WaitForSeconds(2.0f);
-        this.gameObject.SetActive(false);
+        GameManager.Instance.isStageLose = true;
+        DeadAraml?.Invoke();
+        yield return new WaitForSeconds(1);
+        if (!LoseText.activeSelf) LoseText.SetActive(true);
     }
 
 }
