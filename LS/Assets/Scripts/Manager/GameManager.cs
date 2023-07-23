@@ -15,6 +15,7 @@ public class GameManager : Singleton<GameManager>
     public bool isBattle = false;
     public bool isStageMove = false;
 
+    [Header("참조 오브젝트(임시)")]
     public GameObject Player = null;
     public GameObject Monster = null;
     public GameObject CreatePos = null;
@@ -24,12 +25,7 @@ public class GameManager : Singleton<GameManager>
     public int Stage = 1;
     public int Gold = 0;
 
-    public float PlayerATK = 20.0f;
-    public float PlayerDEF = 0f;
-    public float PlayerATKSpeed = 1f;
-    public float PlayerMaxHP = 100f;
-    public float curPlayerHP = 100f;
-
+    [Header("몬스터 스텟(임시)")]
     public float MonsterATK = 20.0f;
     public float MonsterMaxHP = 100f;
     public float curMonsterHP = 100f;

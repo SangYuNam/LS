@@ -5,6 +5,12 @@ using UnityEngine.Events;
 
 public class Player : RepProperty, GameManager.IBattle
 {
+    public float PlayerATK = 20.0f;
+    public float PlayerDEF = 0f;
+    public float PlayerATKSpeed = 1.0f;
+    public float PlayerMaxHP = 100f;
+    public float curPlayerHP = 100f;
+
     float AttackCoolTime = 1.0f;
 
     Coroutine AttackCo = null;
@@ -91,10 +97,10 @@ public class Player : RepProperty, GameManager.IBattle
 
     public void OnTakeDamage(float dmg)
     {
-        GameManager.Instance.curPlayerHP -= dmg;
+        curPlayerHP -= dmg;
         myAnim.SetTrigger("isDamage");
 
-        if (/*!Mathf.Approximately(GameManager.Instance.curPlayerHP, 0f)*/ GameManager.Instance.curPlayerHP > 0.0f)
+        if (curPlayerHP > 0.0f)
         {
             myAnim.SetTrigger("isDamage");
         }

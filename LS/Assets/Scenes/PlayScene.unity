@@ -6387,6 +6387,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86d3d1fbabef0b140a91a7ab72f063ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayerATK: 20
+  PlayerDEF: 0
+  PlayerATKSpeed: 1
+  PlayerMaxHP: 100
+  curPlayerHP: 100
   DeadAraml:
     m_PersistentCalls:
       m_Calls:
@@ -8837,7 +8842,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1659334666
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9642,7 +9647,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1768702437
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10382,7 +10387,35 @@ MonoBehaviour:
   StrengthWindow: {fileID: 1659334665}
   DengeonWindow: {fileID: 1353765019}
   SettingWindow: {fileID: 0}
+  GMHpUp:
+    m_PersistentCalls:
+      m_Calls: []
+  GMAtkUp:
+    m_PersistentCalls:
+      m_Calls: []
+  GMDefUp:
+    m_PersistentCalls:
+      m_Calls: []
+  GMAtkSpeedUp:
+    m_PersistentCalls:
+      m_Calls: []
   _Stage: {fileID: 1501963603}
+  _StatHP: {fileID: 1701463295}
+  _StatATK: {fileID: 1158431212}
+  _StatDEF: {fileID: 1285148675}
+  _StatATKSPEED: {fileID: 1768231542}
+  _StrengthHP: {fileID: 6433027}
+  _StrengthATK: {fileID: 1791182090}
+  _StrengthDEF: {fileID: 1825922691}
+  _StrengthATKSPEED: {fileID: 880629444}
+  _HPLV: {fileID: 90823995}
+  _ATKLV: {fileID: 533027408}
+  _DEFLV: {fileID: 256481911}
+  _ATKSPEEDLV: {fileID: 1348975592}
+  _HPCOST: {fileID: 1425976083}
+  _ATKCOST: {fileID: 1986115473}
+  _DEFCOST: {fileID: 1696093246}
+  _ATKSPEEDCOST: {fileID: 2047176718}
   FadeImg: {fileID: 805760359}
 --- !u!1 &1925826594
 GameObject:
@@ -11623,11 +11656,6 @@ MonoBehaviour:
         m_CallState: 2
   Stage: 1
   Gold: 0
-  PlayerATK: 20
-  PlayerDEF: 0
-  PlayerATKSpeed: 1
-  PlayerMaxHP: 100
-  curPlayerHP: 100
   MonsterATK: 20
   MonsterMaxHP: 100
   curMonsterHP: 100
