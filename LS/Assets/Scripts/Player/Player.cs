@@ -5,13 +5,26 @@ using UnityEngine.Events;
 
 public class Player : RepProperty, GameManager.IBattle
 {
+    [Header("플레이어 스텟")]
     public float PlayerATK = 20.0f;
     public float PlayerDEF = 0f;
     public float PlayerATKSpeed = 1.0f;
     public float PlayerMaxHP = 100f;
     public float curPlayerHP = 100f;
+    public float BeforGold = 100f;
+    public float Gold = 100f;
 
-    float AttackCoolTime = 1.0f;
+    [Header("스텟 레벨")]
+    public int HPLV = 1;
+    public int ATKLV = 1;
+    public int DEFLV = 1;
+    public int ATKSPEEDLV = 1;
+
+    [Header("강화 비용")]
+    public float HPCOST = 10.0f;
+    public float ATKCOST = 10.0f;
+    public float DEFCOST = 10.0f;
+    public float ATKSPEEDCOST = 10.0f;
 
     Coroutine AttackCo = null;
 
@@ -30,7 +43,11 @@ public class Player : RepProperty, GameManager.IBattle
         switch(myState)
         {
             case State.Normal:
-                if (AttackCo != null) StopCoroutine(AttackCo);
+                if (AttackCo != null)
+                {
+                    StopCoroutine(AttackCo);
+                    curPlayerHP = PlayerMaxHP;
+                }
                 break;
             case State.Battle:
                 AttackCo = StartCoroutine(Attacking());
@@ -49,10 +66,10 @@ public class Player : RepProperty, GameManager.IBattle
         switch(myState)
         {
             case State.Normal:
-                if (GameManager.Instance.isBattle)
-                    ChangeState(State.Battle);
                 if (GameManager.Instance.isStageMove)
                     myAnim.SetBool("isMoving", true);
+                if (GameManager.Instance.isBattle)
+                    ChangeState(State.Battle);
                 else
                     myAnim.SetBool("isMoving", false);
                 break;
@@ -79,13 +96,19 @@ public class Player : RepProperty, GameManager.IBattle
     void Update()
     {
         StateProcess();
+        if (BeforGold != Gold)
+        {
+            BeforGold = Gold;
+            UIManger.Instance.rtGold = Gold;
+            Debug.Log("골드 업데이트 PLAYER");
+        }
     }
 
     IEnumerator Attacking()
     {
         while(true)
         {
-            yield return new WaitForSeconds(AttackCoolTime);
+            yield return new WaitForSeconds(PlayerATKSpeed);
 
             myAnim.SetTrigger("isAttack");            
         }
@@ -97,7 +120,7 @@ public class Player : RepProperty, GameManager.IBattle
 
     public void OnTakeDamage(float dmg)
     {
-        curPlayerHP -= dmg;
+        curPlayerHP -= dmg - PlayerDEF;
         myAnim.SetTrigger("isDamage");
 
         if (curPlayerHP > 0.0f)
@@ -117,6 +140,44 @@ public class Player : RepProperty, GameManager.IBattle
         DeadAraml?.Invoke();
         yield return new WaitForSeconds(1);
         if (!LoseText.activeSelf) LoseText.SetActive(true);
+    }
+
+    public void PlayerHPUP()
+    {
+        Gold -= HPCOST;
+        PlayerMaxHP += PlayerMaxHP / 10;
+        if (PlayerMaxHP - curPlayerHP >= PlayerMaxHP / 10)
+            curPlayerHP += PlayerMaxHP / 10;
+        else if (PlayerMaxHP - curPlayerHP < PlayerMaxHP / 10 && PlayerMaxHP - curPlayerHP > 0)
+            curPlayerHP += PlayerMaxHP - curPlayerHP;
+        ++HPLV;
+        HPCOST += 1;
+    }
+    public void PlayerATKUP()
+    {
+        Gold -= ATKCOST;
+        PlayerATK += PlayerATK / 5;
+        ++ATKLV;
+        ATKCOST += 1;
+    }
+    public void PlayerDEFUP()
+    {
+        Gold -= DEFCOST;
+        PlayerDEF += 1.0f;
+        ++DEFLV;
+        DEFCOST += 1;
+    }
+    public void PlayerATKSPEEDUP()
+    {
+        Gold -= ATKSPEEDCOST;
+        PlayerATKSpeed = PlayerATKSpeed * 0.9f;
+        ++ATKSPEEDLV;
+        ATKSPEEDCOST += 1;
+    }
+
+    public void resetHP()
+    {
+        curPlayerHP = PlayerMaxHP;
     }
 
 }

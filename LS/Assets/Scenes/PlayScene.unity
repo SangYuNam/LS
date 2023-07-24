@@ -6105,7 +6105,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 717022870}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1917496457}
+        m_TargetAssemblyTypeName: UIManger, Assembly-CSharp
+        m_MethodName: HpUp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &717022870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6392,6 +6404,16 @@ MonoBehaviour:
   PlayerATKSpeed: 1
   PlayerMaxHP: 100
   curPlayerHP: 100
+  BeforGold: 100
+  Gold: 100
+  HPLV: 1
+  ATKLV: 1
+  DEFLV: 1
+  ATKSPEEDLV: 1
+  HPCOST: 10
+  ATKCOST: 10
+  DEFCOST: 10
+  ATKSPEEDCOST: 10
   DeadAraml:
     m_PersistentCalls:
       m_Calls:
@@ -6507,7 +6529,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uACF5\uACA9 \uC18D\uB3C4 : 1.0"
+  m_text: "\uACF5\uACA9 \uC18D\uB3C4 : 1.0s"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8dfa0440feafc149b3267a2884b38ec, type: 2}
   m_sharedMaterial: {fileID: -2078710967832222157, guid: c8dfa0440feafc149b3267a2884b38ec, type: 2}
@@ -8415,7 +8437,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1534171585}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1917496457}
+        m_TargetAssemblyTypeName: UIManger, Assembly-CSharp
+        m_MethodName: AtkSpeedUp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1534171585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8788,7 +8822,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1653799028}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1917496457}
+        m_TargetAssemblyTypeName: UIManger, Assembly-CSharp
+        m_MethodName: AtkUp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1653799028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8842,7 +8888,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1659334666
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9113,7 +9159,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Gold  : 0'
+  m_text: 'Gold  : 100'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8dfa0440feafc149b3267a2884b38ec, type: 2}
   m_sharedMaterial: {fileID: -2078710967832222157, guid: c8dfa0440feafc149b3267a2884b38ec, type: 2}
@@ -9555,7 +9601,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uACF5\uACA9\uC18D\uB3C4 : 1.0/s"
+  m_text: "\uACF5\uACA9\uC18D\uB3C4 : 1.0s"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8dfa0440feafc149b3267a2884b38ec, type: 2}
   m_sharedMaterial: {fileID: -2078710967832222157, guid: c8dfa0440feafc149b3267a2884b38ec, type: 2}
@@ -9647,7 +9693,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1768702437
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10383,27 +10429,78 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a325467200ea35c428450f87f8a54439, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bfGold: 100
+  rtGold: 100
   InfoWindow: {fileID: 1768702436}
   StrengthWindow: {fileID: 1659334665}
   DengeonWindow: {fileID: 1353765019}
   SettingWindow: {fileID: 0}
-  GMHpUp:
+  PlHpUp:
     m_PersistentCalls:
-      m_Calls: []
-  GMAtkUp:
+      m_Calls:
+      - m_Target: {fileID: 818999282}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: PlayerHPUP
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  PlAtkUp:
     m_PersistentCalls:
-      m_Calls: []
-  GMDefUp:
+      m_Calls:
+      - m_Target: {fileID: 818999282}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: PlayerATKUP
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  PlDefUp:
     m_PersistentCalls:
-      m_Calls: []
-  GMAtkSpeedUp:
+      m_Calls:
+      - m_Target: {fileID: 818999282}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: PlayerDEFUP
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  PlAtkSpeedUp:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 818999282}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: PlayerATKSPEEDUP
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   _Stage: {fileID: 1501963603}
   _StatHP: {fileID: 1701463295}
   _StatATK: {fileID: 1158431212}
   _StatDEF: {fileID: 1285148675}
   _StatATKSPEED: {fileID: 1768231542}
+  _StatGold: {fileID: 1693635109}
   _StrengthHP: {fileID: 6433027}
   _StrengthATK: {fileID: 1791182090}
   _StrengthDEF: {fileID: 1825922691}
@@ -11565,7 +11662,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2098518272}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1917496457}
+        m_TargetAssemblyTypeName: UIManger, Assembly-CSharp
+        m_MethodName: DefUp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2098518272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11655,7 +11764,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   Stage: 1
-  Gold: 0
   MonsterATK: 20
   MonsterMaxHP: 100
   curMonsterHP: 100

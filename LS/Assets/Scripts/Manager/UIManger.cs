@@ -5,17 +5,21 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Events;
 
-public class UIManger : MonoBehaviour
+public class UIManger : Singleton<UIManger>
 {
+    public float bfGold = 100f;
+    public float rtGold = 100f;
+
     public GameObject InfoWindow = null;
     public GameObject StrengthWindow = null;
     public GameObject DengeonWindow = null;
     public GameObject SettingWindow = null;
 
-    public UnityEvent GMHpUp = null;
-    public UnityEvent GMAtkUp = null;
-    public UnityEvent GMDefUp = null;
-    public UnityEvent GMAtkSpeedUp = null;
+    [Header("플레이어 딜리게이트 함수")]
+    public UnityEvent PlHpUp = null;
+    public UnityEvent PlAtkUp = null;
+    public UnityEvent PlDefUp = null;
+    public UnityEvent PlAtkSpeedUp = null;
 
     [Header("현재 스테이지")]
     public TextMeshProUGUI _Stage;
@@ -25,6 +29,7 @@ public class UIManger : MonoBehaviour
     public TextMeshProUGUI _StatATK;
     public TextMeshProUGUI _StatDEF;
     public TextMeshProUGUI _StatATKSPEED;
+    public TextMeshProUGUI _StatGold;
 
     [Header("강화 스탯")]
     public TextMeshProUGUI _StrengthHP;
@@ -54,6 +59,16 @@ public class UIManger : MonoBehaviour
     private void Awake()
     {
         _Player = GameManager.Instance.Player;
+    }
+
+    private void Update()
+    {
+        if(bfGold != rtGold)
+        {
+            bfGold = rtGold;
+            _StatGold.text = $"GOLD : {rtGold}G";
+            Debug.Log("골드 업데이트 UIMANAGER");
+        }
     }
 
     public void WindowControl(GameObject window)
@@ -111,25 +126,49 @@ public class UIManger : MonoBehaviour
 
     public void HpUp()
     {
-        GMHpUp?.Invoke();
-        _StatHP.text = $"체력 : {_Player.GetComponent<Player>().PlayerMaxHP}";
-        _HPLV.text = $"LV : ";
-        _StrengthHP.text = $"체력 : {_Player.GetComponent<Player>().PlayerMaxHP}";
-        _HPCOST.text = $"강화 G";
+        if(rtGold >= _Player.GetComponent<Player>().HPCOST)
+        {
+            PlHpUp?.Invoke();
+            _StatHP.text = $"체력 : {_Player.GetComponent<Player>().PlayerMaxHP}";
+            _HPLV.text = $"LV : {_Player.GetComponent<Player>().HPLV}";
+            _StrengthHP.text = $"체력 : {_Player.GetComponent<Player>().PlayerMaxHP}";
+            _HPCOST.text = $"강화 \n{_Player.GetComponent<Player>().HPCOST}G";
+        }        
     }
 
     public void AtkUp()
     {
-        GMAtkUp?.Invoke();
+        if(rtGold >= _Player.GetComponent<Player>().ATKCOST)
+        {
+            PlAtkUp?.Invoke();
+            _StatATK.text = $"공격력 : {_Player.GetComponent<Player>().PlayerATK}";
+            _ATKLV.text = $"LV : {_Player.GetComponent<Player>().ATKLV}";
+            _StrengthATK.text = $"공격력 : {_Player.GetComponent<Player>().PlayerATK}";
+            _ATKCOST.text = $"강화 \n{_Player.GetComponent<Player>().ATKCOST}G";
+        }
     }
     
     public void DefUp()
     {
-        GMDefUp?.Invoke();
+        if(rtGold >= _Player.GetComponent<Player>().DEFCOST)
+        {
+            PlDefUp?.Invoke();
+            _StatDEF.text = $"방어력 : {_Player.GetComponent<Player>().PlayerDEF}";
+            _DEFLV.text = $"LV : {_Player.GetComponent<Player>().DEFLV}";
+            _StrengthDEF.text = $"방어력 : {_Player.GetComponent<Player>().PlayerDEF}";
+            _DEFCOST.text = $"강화 \n{_Player.GetComponent<Player>().DEFCOST}G";
+        }
     }
 
     public void AtkSpeedUp()
     {
-        GMAtkSpeedUp?.Invoke();
+        if (rtGold >= _Player.GetComponent<Player>().ATKSPEEDCOST)
+        {
+            PlAtkSpeedUp?.Invoke();
+            _StatATKSPEED.text = $"공격속도 : {_Player.GetComponent<Player>().PlayerATKSpeed}s";
+            _ATKSPEEDLV.text = $"LV : {_Player.GetComponent<Player>().ATKSPEEDLV}";
+            _StrengthATKSPEED.text = $"공격속도 : {_Player.GetComponent<Player>().PlayerATKSpeed}s";
+            _ATKSPEEDCOST.text = $"강화 \n{_Player.GetComponent<Player>().ATKSPEEDCOST}G";
+        }
     }
 }

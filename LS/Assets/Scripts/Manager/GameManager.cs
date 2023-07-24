@@ -23,7 +23,6 @@ public class GameManager : Singleton<GameManager>
     public UnityEvent MonsterChangeState = null;
 
     public int Stage = 1;
-    public int Gold = 0;
 
     [Header("몬스터 스텟(임시)")]
     public float MonsterATK = 20.0f;
@@ -35,17 +34,19 @@ public class GameManager : Singleton<GameManager>
     {
         if(!Monster.activeSelf)
         {
-            resetMonster();
+            Player.GetComponent<Player>().Gold += Stage * 10.0f;
+            resetObject();
         }
     }
 
-    void resetMonster()
+    void resetObject()
     {
         Monster.transform.position = CreatePos.transform.position;
         Monster.SetActive(true);
         MonsterChangeState?.Invoke();
         StageControl();
         curMonsterHP = MonsterMaxHP;
+        Player.GetComponent<Player>().resetHP();
     }
 
     public interface IBattle
@@ -59,8 +60,8 @@ public class GameManager : Singleton<GameManager>
         if(!isStageLose)
         {
             Stage += 1;
-            MonsterATK += MonsterATK * 0.5f;
-            MonsterMaxHP += MonsterMaxHP * 0.25f;
+            MonsterATK += MonsterATK * 0.1f;
+            MonsterMaxHP += MonsterMaxHP * 0.1f;
         }
         else
         {

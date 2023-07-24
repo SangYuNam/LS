@@ -28,12 +28,15 @@ public class Mucus : RepProperty
 
     public void HitDamage()
     {
-        GameManager.Instance.Monster.GetComponent<GameManager.IBattle>().OnTakeDamage(20.0f);
+        GameManager.Instance.Monster.GetComponent<GameManager.IBattle>().OnTakeDamage(GameManager.Instance.Player.GetComponent<Player>().PlayerATK);
     }
 
     private void OnEnable()
     {
-        Monster = GameManager.Instance.Monster;
+        if(!Monster)
+        {
+            Monster = GameManager.Instance.Monster;
+        }
         transform.position = GameManager.Instance.Player.transform.position + new Vector3(0.5f, 0.5f, 0f);
     }
 }
