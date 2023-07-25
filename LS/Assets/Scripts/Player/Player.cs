@@ -1,18 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class Player : RepProperty, GameManager.IBattle
 {
+    [Header("UI")]
+    public TextMeshProUGUI _TitleHP;
+    public TextMeshProUGUI _TitleGold;
+
     [Header("플레이어 스텟")]
     public float PlayerATK = 20.0f;
     public float PlayerDEF = 0f;
     public float PlayerATKSpeed = 1.0f;
     public float PlayerMaxHP = 100f;
     public float curPlayerHP = 100f;
-    public float BeforGold = 100f;
+    public float BeforeGold = 100f;
     public float Gold = 100f;
+    public float BeforeHP = 100f;
 
     [Header("스텟 레벨")]
     public int HPLV = 1;
@@ -96,11 +103,17 @@ public class Player : RepProperty, GameManager.IBattle
     void Update()
     {
         StateProcess();
-        if (BeforGold != Gold)
+        if (BeforeGold != Gold)
         {
-            BeforGold = Gold;
+            BeforeGold = Gold;
+            _TitleGold.text = $"Gold : {Gold}G";
             UIManger.Instance.rtGold = Gold;
             Debug.Log("골드 업데이트 PLAYER");
+        }
+        if (BeforeHP != curPlayerHP)
+        {
+            BeforeHP = curPlayerHP;
+            _TitleHP.text = $"Hp : {curPlayerHP}";
         }
     }
 

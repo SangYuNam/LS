@@ -15,7 +15,7 @@ public class GameManager : Singleton<GameManager>
     public bool isBattle = false;
     public bool isStageMove = false;
 
-    [Header("참조 오브젝트(임시)")]
+    [Header("참조 오브젝트")]
     public GameObject Player = null;
     public GameObject Monster = null;
     public GameObject CreatePos = null;
