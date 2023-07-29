@@ -1,12 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Goblin : RepProperty
 {
     public Vector2 MoveArea;
     float myDir = 0.0f;
     public float moveSpeed = 2.0f;
+    public UnityEvent CreateFire = null;
+
     void Start()
     {
         myAnim.SetBool("isMoving", true);
@@ -36,15 +39,21 @@ public class Goblin : RepProperty
     void Update()
     {
         transform.Translate(Vector2.right * myDir * moveSpeed * Time.deltaTime);
-        if (transform.position.x <= MoveArea.x)
+        if(myDir > 0.0f)
         {
-            myRenderer.flipX = false;            
+            myRenderer.flipX = false;
+        }
+        else
+        {
+            myRenderer.flipX = true;
+        }
+        if (transform.position.x <= MoveArea.x)
+        {            
             myDir *= -1.0f;
             transform.position = new Vector3(MoveArea.x, transform.position.y, transform.position.z);
         }
         if (transform.position.x >= MoveArea.y)
-        {
-            myRenderer.flipX = true;
+        {            
             myDir *= -1.0f;
             transform.position = new Vector3(MoveArea.y, transform.position.y, transform.position.z);
         }
@@ -54,6 +63,7 @@ public class Goblin : RepProperty
     {
         while (true)
         {
+            ObjectPool.Instance.GetObject(2);
             yield return new WaitForSeconds(delay);
         }
     }
