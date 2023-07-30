@@ -63,7 +63,7 @@ public class Goblin : RepProperty
     {
         while (true)
         {
-            ObjectPool.Instance.GetObject(2);
+            ObjectPool.Instance.GetObject(Random.Range(2,7));
             yield return new WaitForSeconds(delay);
         }
     }

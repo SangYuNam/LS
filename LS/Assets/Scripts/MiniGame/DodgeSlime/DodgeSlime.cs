@@ -36,12 +36,14 @@ public class DodgeSlime : MonoBehaviour
         }
     }
 
+    public float PlayerSpeed = 2.0f;
     public DodgePlayer myPlayer;
     public LifeUI myLifeUI;
     public Goblin enermyGoblin;
     public GameObject myTitleUI;
     public GameObject myGameOverUI;
     public TMPro.TMP_Text myScoreUI;
+    public TMPro.TMP_Text LastScore;
 
     void ChangeState(State s)
     {
@@ -66,6 +68,7 @@ public class DodgeSlime : MonoBehaviour
                 myGameOverUI.SetActive(true);
                 enermyGoblin.StopDrop();
                 myPlayer.gameObject.SetActive(false);
+                LastScore.text = $"최종 점수 : {Score}";
                 break;
             default:
                 break;
