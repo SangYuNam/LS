@@ -13,7 +13,6 @@ public class Item : MonoBehaviour
     public LayerMask tileMask;
     protected float DropSpeed = 3.0f;
     public ItemType myType = ItemType.None;
-    public GameObject Goblinobj = null;
 
     public void SetType(ItemType type)
     {
@@ -50,7 +49,7 @@ public class Item : MonoBehaviour
                         DodgeSlime.Inst.PlayerSpeed -= 0.3f;
                         break;
                     case ItemType.Goblin:
-                        if (Goblinobj) Instantiate(Goblinobj.gameObject, new Vector3(0, -31, 0), Quaternion.identity); 
+                        DodgeSlime.Inst.enermyGoblin.StartDrop();
                         break;
                 }
             }

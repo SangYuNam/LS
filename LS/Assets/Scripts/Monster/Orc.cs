@@ -16,6 +16,9 @@ public class Orc : RepProperty, GameManager.IBattle
     public TextMeshProUGUI _ShowTxt;
     public UnityEvent DeathAlarm = null;
 
+    public GameObject DamageTextobj = null;
+    public Canvas dmgCanvas = null;
+
     Coroutine coMoving = null;
     public Coroutine coAttacking = null;
     [SerializeField] enum State
@@ -135,9 +138,11 @@ public class Orc : RepProperty, GameManager.IBattle
     public void OnTakeDamage(float dmg)
     {
         GameManager.Instance.curMonsterHP -= dmg;
-        myAnim.SetTrigger("isDamage");       
+        myAnim.SetTrigger("isDamage");
+        GameObject DmgText = Instantiate(DamageTextobj, transform.position + Vector3.up, Quaternion.identity, dmgCanvas.transform);
+        DmgText.GetComponent<DamageText>()._dmgtext.text = $"{(int)dmg }";
 
-        if(GameManager.Instance.curMonsterHP > 0.0f)
+        if (GameManager.Instance.curMonsterHP > 0.0f)
         {
             myAnim.SetTrigger("isDamage");
         }

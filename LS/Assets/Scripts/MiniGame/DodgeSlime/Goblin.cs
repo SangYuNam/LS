@@ -8,7 +8,6 @@ public class Goblin : RepProperty
     public Vector2 MoveArea;
     float myDir = 0.0f;
     public float moveSpeed = 2.0f;
-    public UnityEvent CreateFire = null;
 
     void Start()
     {

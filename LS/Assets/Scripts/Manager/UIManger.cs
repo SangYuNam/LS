@@ -15,6 +15,13 @@ public class UIManger : Singleton<UIManger>
     public GameObject DengeonWindow = null;
     public GameObject SettingWindow = null;
 
+
+    public GameObject MinigameCamera = null;
+    public GameObject MinigameCanvas = null;
+    public GameObject DodgeManager = null;
+    public GameObject DodgePlayer = null;
+    public GameObject DodgeGoblin = null;
+
     [Header("플레이어 딜리게이트 함수")]
     public UnityEvent PlHpUp = null;
     public UnityEvent PlAtkUp = null;
@@ -170,5 +177,80 @@ public class UIManger : Singleton<UIManger>
             _StrengthATKSPEED.text = $"공격속도 : {_Player.GetComponent<Player>().PlayerATKSpeed}s";
             _ATKSPEEDCOST.text = $"강화 \n{_Player.GetComponent<Player>().ATKSPEEDCOST}G";
         }
+    }
+
+    public void MinigameStart()
+    {
+        StartCoroutine(MinigameUIShowing());
+    }
+    public void MinigameEnd()
+    {
+        StartCoroutine(MinigameOff());
+    }
+
+    IEnumerator MinigameUIShowing()
+    {
+        FadeImg.gameObject.SetActive(true);
+        curTime = 0f;
+        Color alpha = FadeImg.color;
+        while (alpha.a < 1f)
+        {
+            curTime += Time.deltaTime / FadeTime;
+            alpha.a = Mathf.Lerp(0, 1, curTime);
+            FadeImg.color = alpha;
+            yield return null;
+        }
+
+        curTime = 0f;
+
+        MinigameCamera.SetActive(true);
+        MinigameCanvas.SetActive(true);
+        DodgeManager.SetActive(true);
+        DodgePlayer.SetActive(true);
+        DodgeGoblin.SetActive(true);
+
+        yield return new WaitForSeconds(1f);
+
+        while (alpha.a > 0f)
+        {
+            curTime += Time.deltaTime / FadeTime;
+            alpha.a = Mathf.Lerp(1, 0, curTime);
+            FadeImg.color = alpha;
+            yield return null;
+        }
+        yield return null;
+    }
+
+    IEnumerator MinigameOff()
+    {
+        FadeImg.gameObject.SetActive(true);
+        curTime = 0f;
+        Color alpha = FadeImg.color;
+        while (alpha.a < 1f)
+        {
+            curTime += Time.deltaTime / FadeTime;
+            alpha.a = Mathf.Lerp(0, 1, curTime);
+            FadeImg.color = alpha;
+            yield return null;
+        }
+
+        curTime = 0f;
+
+        MinigameCamera.SetActive(false);
+        MinigameCanvas.SetActive(false);
+        DodgeManager.SetActive(false);
+        DodgePlayer.SetActive(false);
+        DodgeGoblin.SetActive(false);
+
+        yield return new WaitForSeconds(1f);
+
+        while (alpha.a > 0f)
+        {
+            curTime += Time.deltaTime / FadeTime;
+            alpha.a = Mathf.Lerp(1, 0, curTime);
+            FadeImg.color = alpha;
+            yield return null;
+        }
+        yield return null;
     }
 }

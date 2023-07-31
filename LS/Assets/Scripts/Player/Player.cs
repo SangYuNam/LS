@@ -4,6 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Player : RepProperty, GameManager.IBattle
 {
@@ -37,6 +38,8 @@ public class Player : RepProperty, GameManager.IBattle
 
     public UnityEvent DeadAraml = null;
     public GameObject LoseText = null;
+    public GameObject DamageTextobj = null;
+    public Canvas dmgCanvas = null;
 
     [SerializeField] enum State
     {
@@ -135,6 +138,8 @@ public class Player : RepProperty, GameManager.IBattle
     {
         curPlayerHP -= dmg - PlayerDEF;
         myAnim.SetTrigger("isDamage");
+        GameObject DmgText = Instantiate(DamageTextobj, transform.position + Vector3.up, Quaternion.identity, dmgCanvas.transform);
+        DmgText.GetComponent<DamageText>()._dmgtext.text = $"{(int)dmg - PlayerDEF}";
 
         if (curPlayerHP > 0.0f)
         {
